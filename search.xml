@@ -6,6 +6,7 @@
     <content><![CDATA[<h2 id="翻译软件推荐"><a href="#翻译软件推荐" class="headerlink" title="翻译软件推荐"></a>翻译软件推荐</h2><p>谷歌翻译: <a class="button  regular" href='https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
 <p>ImTranslator: <a class="button  regular" href='https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
 <h2 id="截取网页的插件"><a href="#截取网页的插件" class="headerlink" title="截取网页的插件"></a>截取网页的插件</h2><p>FireShot: <a class="button  regular" href='https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
+<h2 id="获取cookie和设置cookie的插件"><a href="#获取cookie和设置cookie的插件" class="headerlink" title="获取cookie和设置cookie的插件"></a>获取cookie和设置cookie的插件</h2><p>Share Your Cookies: {btn regular::插件网址::<a class="link"   href="https://chrome.google.com/webstore/detail/share-your-cookies/poijkganimmndbhghgkmnfgpiejmlpke::fa-solid" >https://chrome.google.com/webstore/detail/share-your-cookies/poijkganimmndbhghgkmnfgpiejmlpke::fa-solid <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> fa-link %}</p>
 ]]></content>
       <categories>
         <category>谷歌相关</category>
@@ -116,6 +117,22 @@
       </categories>
       <tags>
         <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TodoList工具</title>
+    <url>/blog/2023/11/02/TodoList%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<blockquote>
+<p>该工具源代码是由vue3+typescript+vite+pinia编写的，目前仅支持LocalStorage存储数据，API接口未开发，之后会进行完善。</p>
+</blockquote>
+<p>项目使用地址：<a class="button  regular" href='https://freely-git.github.io/todolist/' title='跳转链接'><i class='fa-solid fa-link'></i> 跳转链接</a></p>
+<p>项目源代码地址：<a class="button  regular" href='https://github.com/freely-git/vue3-todoList' title='跳转链接'><i class='fa-solid fa-link'></i> 跳转链接</a></p>
+]]></content>
+      <categories>
+        <category>个人自制</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
       </tags>
   </entry>
 </search>
