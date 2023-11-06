@@ -57,9 +57,7 @@
     <content><![CDATA[<blockquote>
 <p>该工具用于某些软件的设置中，在工具里面可以选择账号数量，还有时间段间隔，点击按钮获取，可以生成时间段，点击复制按钮可以把信息复制到谷歌表格中。</p>
 </blockquote>
-<a class="button  regular" href='https://freely-git.github.io/setPeriod/' title='工具跳转链接'><i class='fa-solid fa-link'></i> 工具跳转链接</a>
-
-
+<p>网址：<a class="button  regular" href='https://freely-git.github.io/setPeriod/' title='工具跳转链接'><i class='fa-solid fa-link'></i> 工具跳转链接</a><br>使用教程：<a class="button  regular" href='https://www.youtube.com/watch?v=3S-LkZvC3dI' title='书签-关于Facebook注册的使用'><i class='fa-brands fa-youtube'></i> 书签-关于Facebook注册的使用</a></p>
 ]]></content>
       <categories>
         <category>个人自制</category>
