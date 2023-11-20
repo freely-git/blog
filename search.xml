@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>分享一些好用的谷歌插件</title>
-    <url>/blog/2023/09/10/%E5%88%86%E4%BA%AB%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<h2 id="翻译软件推荐"><a href="#翻译软件推荐" class="headerlink" title="翻译软件推荐"></a>翻译软件推荐</h2><p>谷歌翻译: <a class="button  regular" href='https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
-<p>ImTranslator: <a class="button  regular" href='https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
-<h2 id="截取网页的插件"><a href="#截取网页的插件" class="headerlink" title="截取网页的插件"></a>截取网页的插件</h2><p>FireShot: <a class="button  regular" href='https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
-<h2 id="获取cookie和设置cookie的插件"><a href="#获取cookie和设置cookie的插件" class="headerlink" title="获取cookie和设置cookie的插件"></a>获取cookie和设置cookie的插件</h2><p>Share Your Cookies: <a class="button  regular" href='https://chrome.google.com/webstore/detail/share-your-cookies/poijkganimmndbhghgkmnfgpiejmlpke' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
-<h2 id="表情插件"><a href="#表情插件" class="headerlink" title="表情插件"></a>表情插件</h2><p>Emoji Keyboard by JoyPixels：<a class="button  regular" href='https://chrome.google.com/webstore/detail/emoji-keyboard-by-joypixe/ipdjnhgkpapgippgcgkfcbpdpcgifncb' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
+    <title>TodoList工具</title>
+    <url>/blog/2023/11/02/TodoList%E5%B7%A5%E5%85%B7/</url>
+    <content><![CDATA[<blockquote>
+<p>该工具源代码是由vue3+typescript+vite+pinia编写的，目前仅支持LocalStorage存储数据，API接口未开发，之后会进行完善。</p>
+</blockquote>
+<p>项目使用地址：<a class="button  regular" href='https://freely-git.github.io/todolist/' title='跳转链接'><i class='fa-solid fa-link'></i> 跳转链接</a></p>
+<p>项目源代码地址：<a class="button  regular" href='https://github.com/freely-git/vue3-todoList' title='跳转链接'><i class='fa-solid fa-link'></i> 跳转链接</a></p>
 ]]></content>
       <categories>
-        <category>谷歌相关</category>
+        <category>个人自制</category>
       </categories>
       <tags>
-        <tag>分享</tag>
+        <tag>工具</tag>
       </tags>
   </entry>
   <entry>
@@ -52,18 +52,20 @@
       </tags>
   </entry>
   <entry>
-    <title>根据选择的账号和时间段，生成每个账号的时间段</title>
-    <url>/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E9%80%89%E6%8B%A9%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E6%97%B6%E9%97%B4%E6%AE%B5%EF%BC%8C%E7%94%9F%E6%88%90%E6%AF%8F%E4%B8%AA%E8%B4%A6%E5%8F%B7%E7%9A%84%E6%97%B6%E9%97%B4%E6%AE%B5/</url>
+    <title>FB-收集贴文插件</title>
+    <url>/blog/2023/11/20/FB-%E6%94%B6%E9%9B%86%E8%B4%B4%E6%96%87%E6%8F%92%E4%BB%B6/</url>
     <content><![CDATA[<blockquote>
-<p>该工具用于某些软件的设置中，在工具里面可以选择账号数量，还有时间段间隔，点击按钮获取，可以生成时间段，点击复制按钮可以把信息复制到谷歌表格中。</p>
+<p>该功能主要用于facebook收集贴文，这个插件会在facebook页面生成一个按钮，点击按钮是一个表单，里面填写信息，点提交就会上传到谷歌表格，使用这个插件，就不用再表格和facebook之间互相切换。</p>
 </blockquote>
-<p>网址：<a class="button  regular" href='https://freely-git.github.io/setPeriod/' title='工具跳转链接'><i class='fa-solid fa-link'></i> 工具跳转链接</a><br>使用教程：<a class="button  regular" href='https://www.youtube.com/watch?v=3S-LkZvC3dI' title='书签-关于Facebook注册的使用'><i class='fa-brands fa-youtube'></i> 书签-关于Facebook注册的使用</a></p>
+<p>插件下载地址：<a class="button  regular" href='https://github.com/freely-git/FB-PostInputSheet' title='插件下载地址'><i class='fa-solid fa-link'></i> 插件下载地址</a></p>
+<p>使用教程：<a class="button  regular" href='https://www.youtube.com/watch?v=Cw1HvJ8_YsI' title='教程'><i class='fa-brands fa-youtube'></i> 教程</a></p>
+<p>使用的文档：<a class="button  regular" href='https://docs.google.com/spreadsheets/d/1tQB0dNFMPxpgM2ZveYsPP6T_D7cQ7bPnvwXc2pqjBnc/edit#gid=0' title='文档链接'><i class='fa-solid fa-link'></i> 文档链接</a></p>
 ]]></content>
       <categories>
         <category>个人自制</category>
       </categories>
       <tags>
-        <tag>工具</tag>
+        <tag>谷歌插件</tag>
       </tags>
   </entry>
   <entry>
@@ -85,6 +87,22 @@
       </categories>
       <tags>
         <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分享一些好用的谷歌插件</title>
+    <url>/blog/2023/09/10/%E5%88%86%E4%BA%AB%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<h2 id="翻译软件推荐"><a href="#翻译软件推荐" class="headerlink" title="翻译软件推荐"></a>翻译软件推荐</h2><p>谷歌翻译: <a class="button  regular" href='https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
+<p>ImTranslator: <a class="button  regular" href='https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
+<h2 id="截取网页的插件"><a href="#截取网页的插件" class="headerlink" title="截取网页的插件"></a>截取网页的插件</h2><p>FireShot: <a class="button  regular" href='https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
+<h2 id="获取cookie和设置cookie的插件"><a href="#获取cookie和设置cookie的插件" class="headerlink" title="获取cookie和设置cookie的插件"></a>获取cookie和设置cookie的插件</h2><p>Share Your Cookies: <a class="button  regular" href='https://chrome.google.com/webstore/detail/share-your-cookies/poijkganimmndbhghgkmnfgpiejmlpke' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
+<h2 id="表情插件"><a href="#表情插件" class="headerlink" title="表情插件"></a>表情插件</h2><p>Emoji Keyboard by JoyPixels：<a class="button  regular" href='https://chrome.google.com/webstore/detail/emoji-keyboard-by-joypixe/ipdjnhgkpapgippgcgkfcbpdpcgifncb' title='插件网址'><i class='fa-solid fa-link'></i> 插件网址</a></p>
+]]></content>
+      <categories>
+        <category>谷歌相关</category>
+      </categories>
+      <tags>
+        <tag>分享</tag>
       </tags>
   </entry>
   <entry>
@@ -119,13 +137,12 @@
       </tags>
   </entry>
   <entry>
-    <title>TodoList工具</title>
-    <url>/blog/2023/11/02/TodoList%E5%B7%A5%E5%85%B7/</url>
+    <title>根据选择的账号和时间段，生成每个账号的时间段</title>
+    <url>/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E9%80%89%E6%8B%A9%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E6%97%B6%E9%97%B4%E6%AE%B5%EF%BC%8C%E7%94%9F%E6%88%90%E6%AF%8F%E4%B8%AA%E8%B4%A6%E5%8F%B7%E7%9A%84%E6%97%B6%E9%97%B4%E6%AE%B5/</url>
     <content><![CDATA[<blockquote>
-<p>该工具源代码是由vue3+typescript+vite+pinia编写的，目前仅支持LocalStorage存储数据，API接口未开发，之后会进行完善。</p>
+<p>该工具用于某些软件的设置中，在工具里面可以选择账号数量，还有时间段间隔，点击按钮获取，可以生成时间段，点击复制按钮可以把信息复制到谷歌表格中。</p>
 </blockquote>
-<p>项目使用地址：<a class="button  regular" href='https://freely-git.github.io/todolist/' title='跳转链接'><i class='fa-solid fa-link'></i> 跳转链接</a></p>
-<p>项目源代码地址：<a class="button  regular" href='https://github.com/freely-git/vue3-todoList' title='跳转链接'><i class='fa-solid fa-link'></i> 跳转链接</a></p>
+<p>网址：<a class="button  regular" href='https://freely-git.github.io/setPeriod/' title='工具跳转链接'><i class='fa-solid fa-link'></i> 工具跳转链接</a><br>使用教程：<a class="button  regular" href='https://www.youtube.com/watch?v=3S-LkZvC3dI' title='书签-关于Facebook注册的使用'><i class='fa-brands fa-youtube'></i> 书签-关于Facebook注册的使用</a></p>
 ]]></content>
       <categories>
         <category>个人自制</category>
