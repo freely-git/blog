@@ -157,10 +157,10 @@
   <entry>
     <title>chatGPT-4提问工具</title>
     <url>/blog/2023/12/02/chatGPT-4%E6%8F%90%E9%97%AE%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<p>项目使用地址:<a class="button  regular" href='https://script.google.com/macros/s/AKfycbzHFStlMvAnQJiV6Yt64O6JsVc3ISKFFij7U6KpJaMtm4OVkX1Psy5kxDelgprHINhXOQ/exec' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a></p>
-<p>制作好的谷歌表格:<a class="button  regular" href='https://docs.google.com/spreadsheets/d/1o30T-yuD2ZQOKEkIu7NguApsTlGHU67nFlD1Zd1haSQ/edit#gid=0' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a></p>
+    <content><![CDATA[<p>项目使用地址:<a class="button  regular" href='https://script.google.com/macros/s/AKfycbyjZhJheZ_GpUxPAHZR0pTDMQMRhivsLnXpk93GyC9CfsiC5LmiEZ0gpWU5wEp_smVS/exec' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a></p>
+<p>制作好的谷歌表格:<a class="button  regular" href='https://docs.google.com/spreadsheets/d/1OQULLyfQPRV9-WGmq1IHwBmTqxyIsICoUcAziDRNBB0/edit#gid=0' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a></p>
 <blockquote>
-<p>该项目可以复制到自己的谷歌网盘，然后进行部署 web 应用，打开 web 链接即可使用</p>
+<p>该项目可以复制到自己的谷歌网盘，然后进行部署 web 应用，打开 web 链接即可使用，使用的接口来自于 Raz1ner 该项目网址：<a class="button  regular" href='https://dev-coco.github.io/post/freeGPT-4/' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a></p>
 </blockquote>
 ]]></content>
       <categories>
