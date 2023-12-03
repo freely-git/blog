@@ -145,7 +145,7 @@
     <content><![CDATA[<blockquote>
 <p>该工具用于某些软件的设置中，在工具里面可以选择账号数量，还有时间段间隔，点击按钮获取，可以生成时间段，点击复制按钮可以把信息复制到谷歌表格中。</p>
 </blockquote>
-<p>网址：<a class="button  regular" href='https://freely-git.github.io/setPeriod/' title='工具跳转链接'><i class='fa-solid fa-link'></i> 工具跳转链接</a><br>使用教程：<a class="button  regular" href='https://www.youtube.com/watch?v=3S-LkZvC3dI' title='书签-关于Facebook注册的使用'><i class='fa-brands fa-youtube'></i> 书签-关于Facebook注册的使用</a></p>
+<p>网址：<a class="button  regular" href='https://freely-git.github.io/setPeriod/' title='工具跳转链接'><i class='fa-solid fa-link'></i> 工具跳转链接</a><br>使用教程：<a class="button  regular" href='https://www.youtube.com/watch?v=3S-LkZvC3dI' title='教程链接'><i class='fa-brands fa-youtube'></i> 教程链接</a></p>
 ]]></content>
       <categories>
         <category>个人自制</category>
@@ -157,10 +157,9 @@
   <entry>
     <title>chatGPT-4提问工具</title>
     <url>/blog/2023/12/02/chatGPT-4%E6%8F%90%E9%97%AE%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<p>项目使用地址:<a class="button  regular" href='https://script.google.com/macros/s/AKfycbyjZhJheZ_GpUxPAHZR0pTDMQMRhivsLnXpk93GyC9CfsiC5LmiEZ0gpWU5wEp_smVS/exec' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a></p>
-<p>制作好的谷歌表格:<a class="button  regular" href='https://docs.google.com/spreadsheets/d/1OQULLyfQPRV9-WGmq1IHwBmTqxyIsICoUcAziDRNBB0/edit#gid=0' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a></p>
+    <content><![CDATA[<p>制作好的谷歌表格:<a class="button  regular" href='https://docs.google.com/spreadsheets/d/1OQULLyfQPRV9-WGmq1IHwBmTqxyIsICoUcAziDRNBB0/edit#gid=0' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a><br>部署教程：<a class="button  regular" href='https://www.youtube.com/watch?v=KOVeE0S0GdU' title='教程链接'><i class='fa-brands fa-youtube'></i> 教程链接</a></p>
 <blockquote>
-<p>该项目可以复制到自己的谷歌网盘，然后进行部署 web 应用，打开 web 链接即可使用，使用的接口来自于 Raz1ner 该项目网址：<a class="button  regular" href='https://dev-coco.github.io/post/freeGPT-4/' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a></p>
+<p>该项目可以复制到自己的谷歌网盘，然后进行部署 web 应用，打开 web 链接即可使用，使用的接口来自于 Raz1ner 该项目网址：<a class="button  regular" href='https://dev-coco.github.io/post/freeGPT-4/' title='外部链接'><i class='fa-solid fa-link'></i> 外部链接</a>，因为谷歌链接请求的次数限定，所以项目使用的链接不在公开，如果需要按照上述的方法操作，建立自己的一个 GPT4 来进行操作。</p>
 </blockquote>
 ]]></content>
       <categories>
