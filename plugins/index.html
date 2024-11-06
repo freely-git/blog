@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="freely">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://freely-git.github.io/blog/plugins/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="使用谷歌书签制作的简易书签">
+<meta property="og:type" content="website">
+<meta property="og:title" content="书签">
+<meta property="og:url" content="https://freely-git.github.io/blog/plugins/index.html">
+<meta property="og:site_name" content="Freely">
+<meta property="og:description" content="使用谷歌书签制作的简易书签">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-06-29T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-11-10T23:30:28.895Z">
+<meta property="article:author" content="freely-git">
+<meta name="twitter:card" content="summary">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/blog/images/redefine-favicon.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/redefine-favicon.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/blog/images/redefine-favicon.jpg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            书签 -
+        
+        Freely-Blog
+    </title>
+    
+<link rel="stylesheet" href="/blog/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/blog/css/build/styles.css">
+
+    
+
+    
+<link rel="stylesheet" href="/blog/fonts/fonts.css">
+
+    
+<link rel="stylesheet" href="/blog/fonts/Satoshi/satoshi.css">
+
+    
+<link rel="stylesheet" href="/blog/fonts/Chillax/chillax.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+
+    <!--- Inject Part-->
+    
+        
+            
+    
+            
+    
+    <script id="hexo-configurations">
+    let Global = window.Global || {};
+    Global.hexo_config = {"hostname":"freely-git.github.io","root":"/blog/","language":"zh-CN","path":"search.xml"};
+    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"5px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":true,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":false,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":true,"percentage":true},"website_counter":{"url":"https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp"},"title":"Freely-Blog","subtitle":{"text":["Freely 个人博客"],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"links":{"github":"https://github.com/freely-git","instagram":null,"zhihu":null,"twitter":null,"email":"freelyforget@gmail.com"},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.4.4","navbar":{"auto_hide":true,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Plugins":{"path":"/plugins","icon":"fa-regular fa-rocket"}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"这是用来储存我的笔记和开发的小工具","links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2023/7/5 09:00:00"};
+    Global.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    Global.data_config = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/blog/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/blog/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/blog/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/blog/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="swup-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container">
+    
+    <div class="navbar-content">
+        <div class="left">
+            
+            <a class="logo-title" href="https://freely-git.github.io/blog/">
+                
+                Freely-Blog
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/blog/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        首页
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/blog/archives"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-archive"></i>
+                                        
+                                        归档
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="active" 
+                                    href="/blog/plugins"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-rocket"></i>
+                                        
+                                        书签
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i></div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="navbar-drawer w-full absolute top-0 left-0 bg-background-color">
+        <ul class="drawer-navbar-list flex flex-col justify-start items-center">
+            
+                
+                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
+                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
+                        href="/blog/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                首页
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
+                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
+                        href="/blog/archives"  >
+                             
+                                
+                                    <i class="fa-regular fa-archive"></i>
+                                
+                                归档
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+                
+                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
+                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group active" 
+                        href="/blog/plugins"  >
+                             
+                                
+                                    <i class="fa-regular fa-rocket"></i>
+                                
+                                书签
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="page-template-container">
+    
+    
+    
+    <div class="page-template-content markdown-body">
+        
+            <h3 id="FaceBook注册相关的"><a href="#FaceBook注册相关的" class="headerlink" title="FaceBook注册相关的"></a>FaceBook注册相关的</h3><blockquote>
+<p>使用时把书签列拖到浏览器书签上面，这些书签只适用于谷歌浏览器</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">书签名称</th>
+<th align="center">书签</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">英文网名获取名称</td>
+<td align="center"><a href="javascript:try{let lis=document.querySelectorAll('.name_box ul li');let get='';lis.forEach(e=>get+=e.textContent+'\n');function copy(get){const j=document['createElement']('textarea');j['value']=get;document['body']['appendChild'](j);j['select']();document['execCommand']('copy');document['body']['removeChild'](j)}copy(get);alert('获取成功')}catch(error){alert('获取失败'+error)}"><i class="fa-solid fa-bookmark"> 英文网名获取名称</i></a></td>
+<td align="center">书签用于获取 <a class="button  regular" target="_blank" rel="noopener" href='https://www.qmsjmfb.com/en.php' title='英文网名在线生成器'><i class='fa-solid fa-link'></i> 英文网名在线生成器</a> 该网站当前页面所有的英文名称</td>
+</tr>
+<tr>
+<td align="center">获取十分钟邮箱FB的验证码</td>
+<td align="center"><a href="javascript:try{let td=document.querySelectorAll('#mailbox-table tbody tr td');let vif='';td.forEach(e=>{if(e.textContent.includes('FB-')){const regex=/\d+/g;vif=e.textContent.match(regex);return}if(e.textContent.includes('Facebook  確認碼')){const regex=/\d+/g;vif=e.textContent.match(regex);return}});const j=document['createElement']('textarea');j['value']=vif;document['body']['appendChild'](j);j['select']();document['execCommand']('copy');document['body']['removeChild'](j);alert('获取成功')}catch(error){alert('获取失败'+error)}"><i class="fa-solid fa-bookmark"> 获取FB的验证码</i></a></td>
+<td align="center">工具用于获取 <a class="button  regular" target="_blank" rel="noopener" href='https://10minutemail.net/' title='十分钟信箱'><i class='fa-solid fa-link'></i> 十分钟信箱</a> 该网站当前FB的验证码</td>
+</tr>
+<tr>
+<td align="center">简体注册FB账号</td>
+<td align="center"><a href="javascript:var init=prompt('请输入内容','')['split']('\x09');console.log(init[0]);document['querySelector']('[aria-label=\x22姓\x22]')['value']=init[0],document['querySelector']('[aria-label=\x22名\x22]')['value']=init[1],document['querySelector']('[aria-label=\x22手机号或邮箱\x22]')['value']=init[2],document['querySelector']('[aria-label=\x22再次输入邮箱\x22]')['value']=init[2],document['querySelector']('[aria-label=\x22创建密码\x22]')['value']=init[3],document['querySelector']('[aria-label=\x22年份\x22]')['value']=init[4],document['querySelector']('[aria-label=\x22月份\x22]')['value']=init[5],document['querySelector']('[aria-label=\x22日期\x22]')['value']=init[6],document['getElementsByClassName']('_8esa')[init[7]]['checked']=!![],copy('名字：'+init[0]+'\x20'+init[1]+'\x0a邮箱：'+init[2]+'\x0a密码：'+init[3]+'\x0a生日：'+init[4]+'/'+init[5]+'/'+init[6]+'\x0a性别：'+(0x1==init[7]?%27男%27:%27女%27)),document[%27querySelector%27](%27[type=\x22submit\x22]%27)[%27click%27]();function copy(h){const j=document[%27createElement%27](%27textarea%27);j[%27value%27]=h,document[%27body%27][%27appendChild%27](j),j[%27select%27](),document[%27execCommand%27](%27copy%27),document[%27body%27][%27removeChild%27](j);}"><i class="fa-solid fa-bookmark"> 注册FB账号</i></a></td>
+<td align="center">浏览器是简体语言的使用才能使用这个工具在该网站中 <a class="button  regular" target="_blank" rel="noopener" href='https://www.facebook.com/r.php' title='FB注册网站'><i class='fa-solid fa-link'></i> FB注册网站</a> 注册Facebook账号</td>
+</tr>
+<tr>
+<td align="center">繁体注册FB账号</td>
+<td align="center"><a href="javascript:var init=prompt('请输入内容','')['split']('\x09');console.log(init[0]);document['querySelector']('[aria-label=\x22姓氏\x22]')['value']=init[0],document['querySelector']('[aria-label=\x22名字\x22]')['value']=init[1],document['querySelector']('[aria-label=\x22手機號碼或電子郵件\x22]')['value']=init[2],document['querySelector']('[aria-label=\x22請再次輸入電子郵件\x22]')['value']=init[2],document['querySelector']('[aria-label=\x22設定密碼\x22]')['value']=init[3],document['querySelector']('[aria-label=\x22年\x22]')['value']=init[4],document['querySelector']('[aria-label=\x22月\x22]')['value']=init[5],document['querySelector']('[aria-label=\x22日\x22]')['value']=init[6],document['getElementsByClassName']('_8esa')[init[7]]['checked']=!![],copy('名字：'+init[0]+'\x20'+init[1]+'\x0a邮箱：'+init[2]+'\x0a密码：'+init[3]+'\x0a生日：'+init[4]+'/'+init[5]+'/'+init[6]+'\x0a性别：'+(0x1==init[7]?%27男%27:%27女%27)),document[%27querySelector%27](%27[type=\x22submit\x22]%27)[%27click%27]();function copy(h){const j=document[%27createElement%27](%27textarea%27);j[%27value%27]=h,document[%27body%27][%27appendChild%27](j),j[%27select%27](),document[%27execCommand%27](%27copy%27),document[%27body%27][%27removeChild%27](j);}"><i class="fa-solid fa-bookmark"> 注册FB账号</i></a></td>
+<td align="center">浏览器是繁体语言的使用才能使用这个工具在该网站中 <a class="button  regular" target="_blank" rel="noopener" href='https://www.facebook.com/r.php' title='FB注册网站'><i class='fa-solid fa-link'></i> FB注册网站</a> 注册Facebook账号</td>
+</tr>
+<tr>
+<td align="center">电脑手机版注册FB</td>
+<td align="center"><a href="javascript:function copy(h){let text=document.createElement('textarea');text.value=h;document.body.appendChild(text);text.select();document.execCommand('copy');console.log(text.value);document.body.removeChild(text)};function getRandomInt(min, max) {return Math.floor(Math.random() * (max - min)) + min;}let first_time=getRandomInt(2000,4000);let second_time=getRandomInt(4000,8000);let thrid_time=getRandomInt(8000,12000);let fourth_time=getRandomInt(12000,16000);let fifth_time=getRandomInt(16000,20000);if(document.querySelector(&quot;div [data-sigil='login_link']&quot;).style.display == &quot;none&quot;){let v=document.querySelector(&quot;div button[value='下一步']&quot;);v.click();}if(document.querySelector(&quot;div [data-sigil='already_have_an_account_link']&quot;).style.display == &quot;none&quot;){const init=prompt('请输入内容','')['split']('\x09');copy('名字：'+init[0]+'\x20'+init[1]+'\x0a邮箱：'+init[2]+'\x0a密码：'+init[3]+'\x0a生日：'+init[4]+'/'+init[5]+'/'+init[6]+'\x0a性别：'+(1==init[7]?'男':'女'));document.getElementById(&quot;firstname_input&quot;).value=init[1];document.getElementById(&quot;lastname_input&quot;).value=init[0];setTimeout(function(){let c=document.querySelector(&quot;div button[data-sigil='touchable multi_step_next']&quot;);c.click();document.getElementById(&quot;year&quot;).value=init[4];document.getElementById(&quot;month&quot;).value=init[5];document.getElementById(&quot;day&quot;).value=init[6];},first_time);setTimeout(function(){let k=document.querySelector(&quot;div button[data-sigil='touchable multi_step_next']&quot;);k.click();document.querySelector(&quot;a[data-sigil='switch_phone_to_email']&quot;).click();document.querySelector(&quot;input[name='reg_email__']&quot;).value=init[2];}, second_time);setTimeout(function(){let d=document.querySelector(&quot;div button[data-sigil='touchable multi_step_next']&quot;);d.click();if(init[init.length-1]==0){document.getElementById(&quot;女性&quot;).click();}else {document.getElementById(&quot;男性&quot;).click()};}, thrid_time);setTimeout(function(){let e=document.querySelector(&quot;div button[data-sigil='touchable multi_step_next']&quot;);e.click();document.getElementById(&quot;password_step_input&quot;).value=init[3];},fourth_time);setTimeout(function(){let r=document.querySelector(&quot;button[data-sigil='touchable multi_step_submit']&quot;);r.click();}, fifth_time)};"><i class="fa-solid fa-bookmark"> 手机模拟注册</i></a></td>
+<td align="center">使用教程 <a class="button  regular"  title='关于手机模拟注册教程'><i class='fa-brands fa-youtube'></i> 关于手机模拟注册教程</a>,注册网址 <a class="button  regular" target="_blank" rel="noopener" href='https://www.facebook.com/r.php' title='FB注册网站'><i class='fa-solid fa-link'></i> FB注册网站</a></td>
+</tr>
+</tbody></table>
+<p>注册Facebook账号的模板 <a class="button  regular" target="_blank" rel="noopener" href='https://docs.google.com/spreadsheets/d/1sYyDt6Bz4E_SK67jZ4TRKSh882OSZ1WrZSY94CcpqH0/edit#gid=0' title='模板'><i class='fa-solid fa-link'></i> 模板</a>，可以把模板复制到自己的谷歌网盘中. 使用教程如下：<a class="button  regular" target="_blank" rel="noopener" href='https://www.youtube.com/watch?v=iZIVG67YETc' title='书签-关于Facebook注册的使用'><i class='fa-brands fa-youtube'></i> 书签-关于Facebook注册的使用</a></p>
+<h3 id="Outlook相关"><a href="#Outlook相关" class="headerlink" title="Outlook相关"></a>Outlook相关</h3><table>
+<thead>
+<tr>
+<th align="center">书签名称</th>
+<th align="center">书签</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">快速注册工具</td>
+<td align="center"><a href="javascript:if(window.location.href.indexOf(&quot;dev-coco&quot;)&gt;-1)alert(&quot;请认真阅读说明后使用&quot;);else{function randomString(e,t){if(e=e||32,1==t)var a=&quot;ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz&quot;;else a=&quot;ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz1234567890!@#$%^&*()_+{}&quot;;var r=a.length,s=&quot;&quot;;for(i=0;i&lt;e;i++)s+=a.charAt(Math.floor(Math.random()*r));return s}function set_value(e){var t=document.createEvent(&quot;HTMLEvents&quot;);t.initEvent(&quot;input&quot;,!0,!0),t.initEvent(&quot;change&quot;,!0,!0),t.eventType=&quot;message&quot;,e.dispatchEvent(t)}function getRandom(e,t){return Math.floor(Math.random()*(t-e+1)+e)}var MemberName=document.getElementById(&quot;MemberName&quot;),PasswordInput=document.getElementById(&quot;PasswordInput&quot;),LastName=document.getElementById(&quot;LastName&quot;),FirstName=document.getElementById(&quot;FirstName&quot;),BirthYear=document.getElementById(&quot;BirthYear&quot;),BirthMonth=document.getElementById(&quot;BirthMonth&quot;),BirthDay=document.getElementById(&quot;BirthDay&quot;);if(MemberName){var user_str=randomString(16,1);MemberName.value=user_str,set_value(MemberName),document.getElementById(&quot;iSignupAction&quot;).click(),sessionStorage.setItem(&quot;MemberName&quot;,user_str)}else if(PasswordInput){var pass_str=randomString(64,2);PasswordInput.value=pass_str,set_value(PasswordInput),document.getElementById(&quot;iSignupAction&quot;).click(),sessionStorage.setItem(&quot;PasswordInput&quot;,pass_str)}else if(LastName){var lastname=randomString(6,1),firstname=randomString(7,1);LastName.value=lastname,set_value(LastName),FirstName.value=firstname,set_value(FirstName),sessionStorage.setItem(&quot;LastName&quot;,lastname),sessionStorage.setItem(&quot;FirstName&quot;,firstname),document.getElementById(&quot;iSignupAction&quot;).click()}else if(BirthYear){var year_str=getRandom(1970, 2002),month_str=getRandom(1,12),day_str=getRandom(1,28);BirthYear.value=year_str,set_value(BirthYear),BirthMonth.value=month_str,set_value(BirthMonth),BirthDay.value=day_str,set_value(BirthDay),sessionStorage.setItem(&quot;BirthYear&quot;,year_str),sessionStorage.setItem(&quot;BirthMonth&quot;,month_str),sessionStorage.setItem(&quot;BirthDay&quot;,day_str),document.getElementById(&quot;iSignupAction&quot;).click()}}"><i class="fa-solid fa-bookmark"> 快速注册</i></a></td>
+<td align="center">用于快速注册outlook邮箱，密码是64位，并由特殊字符</td>
+</tr>
+<tr>
+<td align="center">输出内容</td>
+<td align="center"><a href="javascript:var K=q;function q(v,l){var K=Q();return q=function(r,i){r=r-0x111;var C=K[r];return C;},q(v,l);}function Q(){var i=['location','href','indexOf','dev-coco','请认真阅读说明后使用','getItem','MemberName','PasswordInput','FirstName','LastName','BirthYear','BirthMonth','BirthDay','getMonth','getDate','getFullYear','注册时间：','\x0a邮箱：','@outlook.com\x0a密码：','\x0a名字：','\x0a生日：','createElement','textarea','body','appendChild','value','focus','select','execCommand','Copy','remove'];Q=function(){return i;};return Q();}if(window[K(0x111)][K(0x112)][K(0x113)](K(0x114))>-0x1)alert(K(0x115));else{var MemberName=sessionStorage[K(0x116)](K(0x117)),PasswordInput=sessionStorage[K(0x116)](K(0x118)),FirstName=sessionStorage[K(0x116)](K(0x119)),LastName=sessionStorage[K(0x116)](K(0x11a)),BirthYear=sessionStorage[K(0x116)](K(0x11b)),BirthMonth=sessionStorage[K(0x116)](K(0x11c)),BirthDay=sessionStorage[K(0x116)](K(0x11d)),date=new Date(),nowMonth=date[K(0x11e)]()+0x1,strDate=date[K(0x11f)](),nowDate=date[K(0x120)]()+'/'+nowMonth+'/'+strDate,str=K(0x121)+nowDate+K(0x122)+MemberName+K(0x123)+PasswordInput+K(0x124)+FirstName+'\x20'+LastName+K(0x125)+BirthYear+'/'+BirthMonth+'/'+BirthDay;function copy(v){var r=K,l=document[r(0x126)](r(0x127));document[r(0x128)][r(0x129)](l),l[r(0x12a)]=v,l[r(0x12b)](),l[r(0x12c)](),document[r(0x12d)](r(0x12e)),l[r(0x12f)]();}copy(str);}"><i class="fa-solid fa-bookmark"> 输出内容</i></a></td>
+<td align="center">输出outlook账号密码注册信息</td>
+</tr>
+</tbody></table>
+<a class="button  regular" target="_blank" rel="noopener" href='https://signup.live.com/signup?lcid=1033&wa=wsignin1.0&rpsnv=15&ct=1690963320&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fnlp%3d1%26signup%3d1%26RpsCsrfState%3d139b7dcf-14a0-590a-28ab-e4f8e60f5eab&id=292841&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=90015&lic=1&uaid=e847367562a0460b8a16b6bebbd7fd53"' title='Outlook注册地址'><i class='fa-solid fa-link'></i> Outlook注册地址</a>
+        
+    </div>
+    <div class="page-template-comments">
+        
+    </div>
+</div>
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2023</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">freely</a>
+        </div>
+        
+            <script data-swup-reload-script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.4.4</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+            
+                
+        
+                
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-expand-width flex justify-center items-center">
+            <i class="fa-regular fa-expand"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    
+<script src="/blog/js/libs/Swup.min.js"></script>
+
+<script src="/blog/js/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/blog/js/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/blog/js/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/blog/js/libs/SwupScrollPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+        ],
+        containers: ["#swup"],
+    });
+
+    swup.hooks.on("page:view", () => {
+        Global.refresh();
+    });
+
+    // if (document.readyState === "complete") {
+    //
+    // } else {
+    //     document.addEventListener("DOMContentLoaded", () => init());
+    // }
+</script>
+
+
+
+
+
+
+<script src="/blog/js/utils.js" type="module"></script>
+
+<script src="/blog/js/main.js" type="module"></script>
+
+<script src="/blog/js/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/blog/js/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/blog/js/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/blog/js/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/blog/js/tools/localSearch.js"></script>
+
+
+
+
+    
+<script src="/blog/js/tools/codeBlock.js"></script>
+
+
+
+
+    
+<script src="/blog/js/layouts/lazyload.js"></script>
+
+
+
+
+    
+<script src="/blog/js/tools/runtime.js"></script>
+
+    
+<script src="/blog/js/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/blog/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/blog/js/libs/Typed.min.js"></script>
+
+  
+<script src="/blog/js/plugins/typed.js"></script>
+
+
+
+
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        
+<script src="/blog/js/libs/anime.min.js"></script>
+
+        
+<script src="/blog/js/tools/tocToggle.js" type="module"></script>
+
+<script src="/blog/js/layouts/toc.js" type="module"></script>
+
+<script src="/blog/js/plugins/tabs.js" type="module"></script>
+
+    
+</div>
+
+
+</body>
+</html>
