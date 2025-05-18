@@ -1,802 +1,162 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Hexo Theme Redefine">
-    
-    <meta name="author" content="freely">
-    <!-- preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    
-    <!--- Seo Part-->
-    
-    <link rel="canonical" href="https://freely-git.github.io/blog/2024/10/14/学习python/"/>
-    <meta name="robots" content="index,follow">
-    <meta name="googlebot" content="index,follow">
-    <meta name="revisit-after" content="1 days">
-    
-        <meta name="description" content="python学习笔记">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>学习python | Freely</title><meta name="author" content="freely-git"><meta name="copyright" content="freely-git"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="python学习笔记">
 <meta property="og:type" content="article">
 <meta property="og:title" content="学习python">
 <meta property="og:url" content="https://freely-git.github.io/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/index.html">
 <meta property="og:site_name" content="Freely">
 <meta property="og:description" content="python学习笔记">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://freely-git.github.io/blog/img/butterfly-icon.png">
 <meta property="article:published_time" content="2024-10-14T01:26:39.000Z">
-<meta property="article:modified_time" content="2024-10-15T08:04:17.447Z">
+<meta property="article:modified_time" content="2025-05-18T01:32:48.197Z">
 <meta property="article:author" content="freely-git">
 <meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
-    
-    
-    <!--- Icon Part-->
-    <link rel="icon" type="image/png" href="/blog/images/redefine-favicon.jpg" sizes="192x192">
-    <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/redefine-favicon.jpg">
-    <meta name="theme-color" content="#A31F34">
-    <link rel="shortcut icon" href="/blog/images/redefine-favicon.jpg">
-    <!--- Page Info-->
-    
-    <title>
-        
-            学习python -
-        
-        Freely-Blog
-    </title>
-    
-<link rel="stylesheet" href="/blog/css/style.css">
-
-
-    
-        
-<link rel="stylesheet" href="/blog/css/build/styles.css">
-
-    
-
-    
-<link rel="stylesheet" href="/blog/fonts/fonts.css">
-
-    
-<link rel="stylesheet" href="/blog/fonts/Satoshi/satoshi.css">
-
-    
-<link rel="stylesheet" href="/blog/fonts/Chillax/chillax.css">
-
-    <!--- Font Part-->
-    
-    
-    
-    
-
-    <!--- Inject Part-->
-    
-        
-            
-    
-            
-    
-    <script id="hexo-configurations">
-    let Global = window.Global || {};
-    Global.hexo_config = {"hostname":"freely-git.github.io","root":"/blog/","language":"zh-CN","path":"search.xml"};
-    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"5px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":true,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":false,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":true,"percentage":true},"website_counter":{"url":"https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp"},"title":"Freely-Blog","subtitle":{"text":["Freely 个人博客"],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"links":{"github":"https://github.com/freely-git","instagram":null,"zhihu":null,"twitter":null,"email":"freelyforget@gmail.com"},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.4.4","navbar":{"auto_hide":true,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Plugins":{"path":"/plugins","icon":"fa-regular fa-rocket"}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"这是用来储存我的笔记和开发的小工具","links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2023/7/5 09:00:00"};
-    Global.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
-    Global.data_config = {"masonry":false};
-  </script>
-    
-    <!--- Fontawesome Part-->
-    
-<link rel="stylesheet" href="/blog/fontawesome/fontawesome.min.css">
-
-    
-<link rel="stylesheet" href="/blog/fontawesome/brands.min.css">
-
-    
-<link rel="stylesheet" href="/blog/fontawesome/solid.min.css">
-
-    
-<link rel="stylesheet" href="/blog/fontawesome/regular.min.css">
-
-    
-    
-    
-    
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-
-<body>
-<div class="progress-bar-container">
-    
-        <span class="scroll-progress-bar"></span>
-    
-
-    
-        <span class="pjax-progress-bar"></span>
-        <span class="swup-progress-icon">
-            <i class="fa-solid fa-circle-notch fa-spin"></i>
-        </span>
-    
-</div>
-
-
-<main class="page-container" id="swup">
-
-    
-
-    <div class="main-content-container">
-
-
-        <div class="main-content-header">
-            <header class="navbar-container">
-    
-    <div class="navbar-content">
-        <div class="left">
-            
-            <a class="logo-title" href="https://freely-git.github.io/blog/">
-                
-                Freely-Blog
-                
-            </a>
-        </div>
-
-        <div class="right">
-            <!-- PC -->
-            <div class="desktop">
-                <ul class="navbar-list">
-                    
-                        
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class="" 
-                                    href="/blog/"  >
-                                    
-                                        
-                                            <i class="fa-regular fa-house"></i>
-                                        
-                                        首页
-                                    
-                                </a>
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                        
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class="" 
-                                    href="/blog/archives"  >
-                                    
-                                        
-                                            <i class="fa-regular fa-archive"></i>
-                                        
-                                        归档
-                                    
-                                </a>
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                        
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class="" 
-                                    href="/blog/plugins"  >
-                                    
-                                        
-                                            <i class="fa-regular fa-rocket"></i>
-                                        
-                                        书签
-                                    
-                                </a>
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                    
-                        <li class="navbar-item search search-popup-trigger">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </li>
-                    
-                </ul>
-            </div>
-            <!-- Mobile -->
-            <div class="mobile">
-                
-                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i></div>
-                
-                <div class="icon-item navbar-bar">
-                    <div class="navbar-bar-middle"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Mobile drawer -->
-    <div class="navbar-drawer w-full absolute top-0 left-0 bg-background-color">
-        <ul class="drawer-navbar-list flex flex-col justify-start items-center">
-            
-                
-                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
-                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
-                        href="/blog/"  >
-                             
-                                
-                                    <i class="fa-regular fa-house"></i>
-                                
-                                首页
-                            
-                        </a>
-                    </li>
-                    <!-- Submenu -->
-                    
-            
-                
-                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
-                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
-                        href="/blog/archives"  >
-                             
-                                
-                                    <i class="fa-regular fa-archive"></i>
-                                
-                                归档
-                            
-                        </a>
-                    </li>
-                    <!-- Submenu -->
-                    
-            
-                
-                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
-                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
-                        href="/blog/plugins"  >
-                             
-                                
-                                    <i class="fa-regular fa-rocket"></i>
-                                
-                                书签
-                            
-                        </a>
-                    </li>
-                    <!-- Submenu -->
-                    
-            
-
-        </ul>
-    </div>
-
-    <div class="window-mask"></div>
-
-</header>
-
-
-        </div>
-
-        <div class="main-content-body">
-
-            
-
-            <div class="main-content">
-
-                
-                    <div class="post-page-container">
-    <div class="article-content-container">
-
-        <div class="article-title">
-            
-                <h1 class="article-title-regular">学习python</h1>
-            
-            </div>
-            
-                    
-        
-        
-            <div class="article-header">
-                <div class="avatar">
-                    <img src="/blog/images/redefine-avatar.jpg">
-                </div>
-                <div class="info">
-                    <div class="author">
-                        <span class="name">freely</span>
-                        
-                            <span class="author-label">Lv2</span>
-                        
-                    </div>
-                    <div class="meta-info">
-                        <div class="article-meta-info">
-    <span class="article-date article-meta-item">
-        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2024-10-14 09:26:39</span>
-        <span class="mobile">2024-10-14 09:26:39</span>
-        <span class="hover-info">创建</span>
-    </span>
-    
-        <span class="article-date article-meta-item">
-            <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-10-15 16:04:17</span>
-            <span class="mobile">2024-10-15 16:04:17</span>
-            <span class="hover-info">更新</span>
-        </span>
-    
-
-    
-        <span class="article-categories article-meta-item">
-            <i class="fa-regular fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/python/">python</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-    
-    
-        <span class="article-tags article-meta-item">
-            <i class="fa-regular fa-tags"></i>&nbsp;
-            <ul>
-                
-                    <li>
-                        <a href="/blog/tags/%E5%AD%A6%E4%B9%A0/">学习</a>&nbsp;
-                    </li>
-                
-            </ul>
-        </span>
-    
-
-    
-    
-    
-    
-        <span class="article-pv article-meta-item">
-            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
-        </span>
-    
-</div>
-
-                    </div>
-                </div>
-            </div>
-        
-
-        
-
-
-        <div class="article-content markdown-body">
-            <h2 id="python-输出和输入"><a href="#python-输出和输入" class="headerlink" title="python 输出和输入"></a>python 输出和输入</h2><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 接收输入的内容</span></span><br><span class="line">content = <span class="built_in">input</span>();</span><br><span class="line"><span class="comment"># 输出内容</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;这是你输入的内容&quot;</span>, content);</span><br></pre></td></tr></table></figure></div>
-        </div>
-
-        
-
-        
-            <ul class="post-tags-box">
-                
-                    <li class="tag-item">
-                        <a href="/blog/tags/%E5%AD%A6%E4%B9%A0/">#学习</a>&nbsp;
-                    </li>
-                
-            </ul>
-        
-
-        
-
-        
-            <div class="article-nav">
-                
-                    <div class="article-prev">
-                        <a class="prev"
-                        rel="prev"
-                        href="/blog/2024/11/06/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/"
-                        >
-                            <span class="left arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-left"></i>
-                            </span>
-                            <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">鼠标手势代码</span>
-                                <span class="post-nav-item">上一篇</span>
-                            </span>
-                        </a>
-                    </div>
-                
-                
-                    <div class="article-next">
-                        <a class="next"
-                        rel="next"
-                        href="/blog/2024/04/04/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0/"
-                        >
-                            <span class="title flex justify-center items-center">
-                                <span class="post-nav-title-item">谷歌表格脚本学习</span>
-                                <span class="post-nav-item">下一篇</span>
-                            </span>
-                            <span class="right arrow-icon flex justify-center items-center">
-                                <i class="fa-solid fa-chevron-right"></i>
-                            </span>
-                        </a>
-                    </div>
-                
-            </div>
-        
-
-
-        
-            <div class="comment-container">
-                <div class="comments-container pjax">
-    <div id="comment-anchor"></div>
-    <div class="comment-area-title">
-        <i class="fa-solid fa-comments"></i>&nbsp;评论
-    </div>
-    
-
-        
-            
-    <div id="gitalk-container"></div>
-    <script data-swup-reload-script
-            src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-    <script data-swup-reload-script>
-
-        function loadGitalk() {
-            let __gitalk__pathname = decodeURI(location.pathname);
-            const __gitalk__pathnameLength = __gitalk__pathname.length;
-            const __gitalk__pathnameMaxLength = 50;
-            if (__gitalk__pathnameLength > __gitalk__pathnameMaxLength) {
-                __gitalk__pathname = __gitalk__pathname.substring(0, __gitalk__pathnameMaxLength - 3) + '...';
-            }
-
-            try {
-                Gitalk && new Gitalk({
-                    clientID: '1cd7953364c57e711c06',
-                    clientSecret: '09a0a39bb43c1571d7a62811c5a8e9fae68b760b',
-                    repo: 'Gitalk',
-                    owner: 'freely-git',
-                    admin: ['freely-git'],
-                    id: __gitalk__pathname,
-                    language: 'zh-CN'
-                }).render('gitalk-container');
-
-            } catch (e) {
-                window.Gitalk = null;
-            }
+<meta name="twitter:image" content="https://freely-git.github.io/blog/img/butterfly-icon.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "学习python",
+  "url": "https://freely-git.github.io/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/",
+  "image": "https://freely-git.github.io/blog/img/butterfly-icon.png",
+  "datePublished": "2024-10-14T01:26:39.000Z",
+  "dateModified": "2025-05-18T01:32:48.197Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "freely-git",
+      "url": "https://freely-git.github.io/blog/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/blog/img/favicon.png"><link rel="canonical" href="https://freely-git.github.io/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/blog/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
         }
+        return value
+      }
+    }
 
-        if ('true') {
-            const loadGitalkTimeout = setTimeout(() => {
-                loadGitalk();
-                clearTimeout(loadGitalkTimeout);
-            }, 1000);
-        } else {
-            window.addEventListener('DOMContentLoaded', loadGitalk);
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
         }
-    </script>
-
-
-
-        
-    
-</div>
-
-            </div>
-        
-    </div>
-
-    
-        <div class="toc-content-container">
-            <div class="post-toc-wrap">
-    <div class="post-toc">
-        <div class="toc-title">此页目录</div>
-        <div class="page-title">学习python</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#python-%E8%BE%93%E5%87%BA%E5%92%8C%E8%BE%93%E5%85%A5"><span class="nav-text">python 输出和输入</span></a></li></ol>
-
-    </div>
-</div>
-        </div>
-    
-</div>
-
-
-
-                
-
-            </div>
-
-            
-
-        </div>
-
-        <div class="main-content-footer">
-            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
-    <div class="info-container py-3 text-center">
-        
-        <div class="text-center">
-            &copy;
-            
-              <span>2023</span>
-              -
-            
-            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">freely</a>
-        </div>
-        
-            <script data-swup-reload-script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
-                
-                    <span id="busuanzi_container_site_uv" class="lg:!block">
-                        <span class="text-sm">访问人数</span>
-                        <span id="busuanzi_value_site_uv"></span>
-                    </span>
-                
-                
-                    <span id="busuanzi_container_site_pv" class="lg:!block">
-                        <span class="text-sm">总访问量</span>
-                        <span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
-            </div>
-        
-        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
-            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
-            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.4.4</a></span>
-        </div>
-        
-        
-            <div>
-                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
-            </div>
-        
-        
-            <script data-swup-reload-script>
-                try {
-                    function odometer_init() {
-                    const elements = document.querySelectorAll('.odometer');
-                    elements.forEach(el => {
-                        new Odometer({
-                            el,
-                            format: '( ddd).dd',
-                            duration: 200
-                        });
-                    });
-                    }
-                    odometer_init();
-                } catch (error) {}
-            </script>
-        
-        
-            
-                
-        
-                
-        
-        
-    </div>  
-</footer>
-        </div>
-    </div>
-
-    
-        <div class="post-tools">
-            <div class="post-tools-container">
-    <ul class="article-tools-list">
-        <!-- TOC aside toggle -->
-        
-            <li class="right-bottom-tools page-aside-toggle">
-                <i class="fa-regular fa-outdent"></i>
-            </li>
-        
-
-        <!-- go comment -->
-        
-            <li class="go-comment">
-                <i class="fa-regular fa-comments"></i>
-            </li>
-        
-    </ul>
-</div>
-
-        </div>
-    
-
-    <div class="right-side-tools-container">
-        <div class="side-tools-container">
-    <ul class="hidden-tools-list">
-        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
-            <i class="fa-regular fa-magnifying-glass-plus"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
-            <i class="fa-regular fa-magnifying-glass-minus"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-expand-width flex justify-center items-center">
-            <i class="fa-regular fa-expand"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
-            <i class="fa-regular fa-moon"></i>
-        </li>
-
-        <!-- rss -->
-        
-
-        
-
-        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
-            <i class="fa-regular fa-arrow-down"></i>
-        </li>
-    </ul>
-
-    <ul class="visible-tools-list">
-        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
-            <i class="fa-regular fa-cog fa-spin"></i>
-        </li>
-        
-            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
-                <i class="arrow-up fas fa-arrow-up"></i>
-                <span class="percent"></span>
-            </li>
-        
-        
-    </ul>
-</div>
-
-    </div>
-
-    <div class="image-viewer-container">
-    <img src="">
-</div>
-
-
-    
-        <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-          <span class="search-input-field-pre">
-            <i class="fa-solid fa-keyboard"></i>
-          </span>
-            <div class="search-input-container">
-                <input autocomplete="off"
-                       autocorrect="off"
-                       autocapitalize="off"
-                       placeholder="搜索..."
-                       spellcheck="false"
-                       type="search"
-                       class="search-input"
-                >
-            </div>
-            <span class="popup-btn-close">
-                <i class="fa-solid fa-times"></i>
-            </span>
-        </div>
-        <div id="search-result">
-            <div id="no-result">
-                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
-            </div>
-        </div>
-    </div>
-</div>
-
-    
-
-</main>
-
-
-    
-<script src="/blog/js/libs/Swup.min.js"></script>
-
-<script src="/blog/js/libs/SwupSlideTheme.min.js"></script>
-
-<script src="/blog/js/libs/SwupScriptsPlugin.min.js"></script>
-
-<script src="/blog/js/libs/SwupProgressPlugin.min.js"></script>
-
-<script src="/blog/js/libs/SwupScrollPlugin.min.js"></script>
-
-<script>
-    const swup = new Swup({
-        plugins: [
-            new SwupScriptsPlugin({
-                optin: true,
-            }),
-            new SwupProgressPlugin(),
-            new SwupScrollPlugin({
-                offset: 80,
-            }),
-            new SwupSlideTheme({
-                mainElement: ".main-content-body",
-            }),
-        ],
-        containers: ["#swup"],
-    });
-
-    swup.hooks.on("page:view", () => {
-        Global.refresh();
-    });
-
-    // if (document.readyState === "complete") {
-    //
-    // } else {
-    //     document.addEventListener("DOMContentLoaded", () => init());
-    // }
-</script>
-
-
-
-
-
-
-<script src="/blog/js/utils.js" type="module"></script>
-
-<script src="/blog/js/main.js" type="module"></script>
-
-<script src="/blog/js/layouts/navbarShrink.js" type="module"></script>
-
-<script src="/blog/js/tools/scrollTopBottom.js" type="module"></script>
-
-<script src="/blog/js/tools/lightDarkSwitch.js" type="module"></script>
-
-<script src="/blog/js/layouts/categoryList.js" type="module"></script>
-
-
-
-    
-<script src="/blog/js/tools/localSearch.js"></script>
-
-
-
-
-    
-<script src="/blog/js/tools/codeBlock.js"></script>
-
-
-
-
-    
-<script src="/blog/js/layouts/lazyload.js"></script>
-
-
-
-
-    
-<script src="/blog/js/tools/runtime.js"></script>
-
-    
-<script src="/blog/js/libs/odometer.min.js"></script>
-
-    
-<link rel="stylesheet" href="/blog/assets/odometer-theme-minimal.css">
-
-
-
-
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
   
-<script src="/blog/js/libs/Typed.min.js"></script>
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
 
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
   
-<script src="/blog/js/plugins/typed.js"></script>
-
-
-
-
-
-
-
-<div class="post-scripts" data-swup-reload-script>
-    
-        
-<script src="/blog/js/libs/anime.min.js"></script>
-
-        
-<script src="/blog/js/tools/tocToggle.js" type="module"></script>
-
-<script src="/blog/js/layouts/toc.js" type="module"></script>
-
-<script src="/blog/js/plugins/tabs.js" type="module"></script>
-
-    
-</div>
-
-
-</body>
-</html>
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/blog/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '学习python',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/blog/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/blog/img/butterfly.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/blog/"><span class="site-name">Freely</span></a><a class="nav-page-title" href="/blog/"><span class="site-name">学习python</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">学习python</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-10-14T01:26:39.000Z" title="发表于 2024-10-14 09:26:39">2024-10-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-05-18T01:32:48.197Z" title="更新于 2025-05-18 09:32:48">2025-05-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/blog/categories/python/">python</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="python-输出和输入"><a href="#python-输出和输入" class="headerlink" title="python 输出和输入"></a>python 输出和输入</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 接收输入的内容</span></span><br><span class="line">content = <span class="built_in">input</span>();</span><br><span class="line"><span class="comment"># 输出内容</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;这是你输入的内容&quot;</span>, content);</span><br></pre></td></tr></table></figure></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://freely-git.github.io/blog">freely-git</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://freely-git.github.io/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/">https://freely-git.github.io/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://freely-git.github.io/blog" target="_blank">Freely</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/blog/tags/%E5%AD%A6%E4%B9%A0/">学习</a></div><div class="post-share"><div class="social-share" data-image="/blog/img/butterfly-icon.png" data-sites="facebook,twitter"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/blog/2024/04/04/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0/" title="谷歌表格脚本学习"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">谷歌表格脚本学习</div></div><div class="info-2"><div class="info-item-1">Google APP Script (GAS) 简介GAS 是什么？Google 脚本是一种基于 Javascript 的脚本语言，全称 Google Apps Script，简称为 GAS。 GAS 能用来干什么？Google 应用最常用的是自动化处理表格数据，比如批量修改某个数据，如果是手动，那就需要一个一个修改，使用脚本能提升完成任务的效率、速度，还有脚本只要逻辑没有问题，修改的结果是不会出错的，而手动并不能保证修改的准确率，简单来说，脚本是用来提高我们配合任务的效率。当然谷歌脚本还能调用谷歌其他应用，Gmail、Calendar、Drive、Docs、Sheets、Forms等。 网络应用Google 脚本可以发布为 Web 网络应用，并且通过浏览器来访问，就像用户访问网页一样，并且可以操作 Google 应用，例如修改文档、表格等等。绑定 Google 应用的脚本可以转换为网络应用。网络应用必须包含 doGet() 或者 doPost()，相当于 HTTP GET 和 HTTP POST。 输出函数logger logger...</div></div></div></a><a class="pagination-related" href="/blog/2024/11/06/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/" title="鼠标手势代码"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">鼠标手势代码</div></div><div class="info-2"><div class="info-item-1">一键发快拍（单个浏览器版本）12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182var wnds = sp.WindowsFromTitlePartial(&#x27;Facebook&#x27;);var path = &quot;D:\\FB\\kuaipai\\story&quot;; //快拍图片文件夹路径//var url = &quot;https://www.facebook.com/&quot;;for (var n = 0, len = wnds.Length; n &lt; len; n++) &#123;    wnds[len-n-1].Activate();    sp.Sleep(1000);    sp.ForegroundWindow().Maximize();   ...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/blog/2023/10/23/%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/" title="谷歌插件开发"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-23</div><div class="info-item-2">谷歌插件开发</div></div><div class="info-2"><div class="info-item-1">谷歌插件基本的文件 谷歌插件最基本的文件是 mainifest.json 文件   1234567891011121314151617181920&#123;    // 插件名称    &quot;name&quot;: &quot;&quot;,    // 插件版本    &quot;version&quot;: &quot;&quot;,    // 插件描述    &quot;description&quot;: &quot;&quot;,    // 配置插件程序的版本号，主流版本是2，最新是3    &quot;mainifest_version&quot;: 3,    // 注册后台脚本    &quot;background&quot;: &#123;        &quot;service_worker&quot;: &quot;&quot;    &#125;,    // 插件图标    &quot;icons&quot;: &#123;        &quot;16&quot;: ,        &quot;32&quot;: ,       ...</div></div></div></a><a class="pagination-related" href="/blog/2024/04/04/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0/" title="谷歌表格脚本学习"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-04</div><div class="info-item-2">谷歌表格脚本学习</div></div><div class="info-2"><div class="info-item-1">Google APP Script (GAS) 简介GAS 是什么？Google 脚本是一种基于 Javascript 的脚本语言，全称 Google Apps Script，简称为 GAS。 GAS 能用来干什么？Google 应用最常用的是自动化处理表格数据，比如批量修改某个数据，如果是手动，那就需要一个一个修改，使用脚本能提升完成任务的效率、速度，还有脚本只要逻辑没有问题，修改的结果是不会出错的，而手动并不能保证修改的准确率，简单来说，脚本是用来提高我们配合任务的效率。当然谷歌脚本还能调用谷歌其他应用，Gmail、Calendar、Drive、Docs、Sheets、Forms等。 网络应用Google 脚本可以发布为 Web 网络应用，并且通过浏览器来访问，就像用户访问网页一样，并且可以操作 Google 应用，例如修改文档、表格等等。绑定 Google 应用的脚本可以转换为网络应用。网络应用必须包含 doGet() 或者 doPost()，相当于 HTTP GET 和 HTTP POST。 输出函数logger logger...</div></div></div></a><a class="pagination-related" href="/blog/2023/08/19/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0/" title="谷歌表格函数学习"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2023-08-19</div><div class="info-item-2">谷歌表格函数学习</div></div><div class="info-2"><div class="info-item-1">分享给大家 Raz1ner 作者制作的谷歌表格函数查找手册， 关于阵列的函数使用ARRAYFORMULA()：可在多個資料列或資料欄中顯示陣列公式傳回的值DETECTLANGUAGE()：用于检测字符串的语言   </div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/blog/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">freely-git</div><div class="author-info-description">FreeLy 个人博客</div><div class="site-data"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#python-%E8%BE%93%E5%87%BA%E5%92%8C%E8%BE%93%E5%85%A5"><span class="toc-number">1.</span> <span class="toc-text">python 输出和输入</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2024/11/06/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/" title="鼠标手势代码">鼠标手势代码</a><time datetime="2024-11-06T14:33:47.000Z" title="发表于 2024-11-06 22:33:47">2024-11-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/" title="学习python">学习python</a><time datetime="2024-10-14T01:26:39.000Z" title="发表于 2024-10-14 09:26:39">2024-10-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2024/04/04/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0/" title="谷歌表格脚本学习">谷歌表格脚本学习</a><time datetime="2024-04-04T01:58:12.000Z" title="发表于 2024-04-04 09:58:12">2024-04-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2023/12/02/chatGPT-4%E6%8F%90%E9%97%AE%E5%B7%A5%E5%85%B7/" title="chatGPT-4提问工具">chatGPT-4提问工具</a><time datetime="2023-12-02T02:19:16.000Z" title="发表于 2023-12-02 10:19:16">2023-12-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2023/11/20/FB-%E6%94%B6%E9%9B%86%E8%B4%B4%E6%96%87%E6%8F%92%E4%BB%B6/" title="FB-收集贴文插件">FB-收集贴文插件</a><time datetime="2023-11-20T06:57:52.000Z" title="发表于 2023-11-20 14:57:52">2023-11-20</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By freely-git</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 6.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/blog/js/utils.js"></script><script src="/blog/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

@@ -1,1430 +1,233 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Hexo Theme Redefine">
-    
-    <meta name="author" content="freely">
-    <!-- preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    
-    <!--- Seo Part-->
-    
-    <link rel="canonical" href="https://freely-git.github.io/blog/"/>
-    <meta name="robots" content="index,follow">
-    <meta name="googlebot" content="index,follow">
-    <meta name="revisit-after" content="1 days">
-    
-        <meta name="description" content="FreeLy 个人博客">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Freely</title><meta name="author" content="freely-git"><meta name="copyright" content="freely-git"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="FreeLy 个人博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Freely">
 <meta property="og:url" content="https://freely-git.github.io/blog/index.html">
 <meta property="og:site_name" content="Freely">
 <meta property="og:description" content="FreeLy 个人博客">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://freely-git.github.io/blog/img/butterfly-icon.png">
 <meta property="article:author" content="freely-git">
 <meta name="twitter:card" content="summary">
-    
-    
-    <!--- Icon Part-->
-    <link rel="icon" type="image/png" href="/blog/images/redefine-favicon.jpg" sizes="192x192">
-    <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/redefine-favicon.jpg">
-    <meta name="theme-color" content="#A31F34">
-    <link rel="shortcut icon" href="/blog/images/redefine-favicon.jpg">
-    <!--- Page Info-->
-    
-    <title>
-        
-        Freely-Blog
-    </title>
-    
-<link rel="stylesheet" href="/blog/css/style.css">
-
-
-    
-        
-<link rel="stylesheet" href="/blog/css/build/styles.css">
-
-    
-
-    
-<link rel="stylesheet" href="/blog/fonts/fonts.css">
-
-    
-<link rel="stylesheet" href="/blog/fonts/Satoshi/satoshi.css">
-
-    
-<link rel="stylesheet" href="/blog/fonts/Chillax/chillax.css">
-
-    <!--- Font Part-->
-    
-    
-    
-    
-
-    <!--- Inject Part-->
-    
-        
-            
-    
-            
-    
-    <script id="hexo-configurations">
-    let Global = window.Global || {};
-    Global.hexo_config = {"hostname":"freely-git.github.io","root":"/blog/","language":"zh-CN","path":"search.xml"};
-    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"5px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":true,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":false,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":true,"percentage":true},"website_counter":{"url":"https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp"},"title":"Freely-Blog","subtitle":{"text":["Freely 个人博客"],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"links":{"github":"https://github.com/freely-git","instagram":null,"zhihu":null,"twitter":null,"email":"freelyforget@gmail.com"},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.4.4","navbar":{"auto_hide":true,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Plugins":{"path":"/plugins","icon":"fa-regular fa-rocket"}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"这是用来储存我的笔记和开发的小工具","links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"}}},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2023/7/5 09:00:00"};
-    Global.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
-    Global.data_config = {"masonry":false};
-  </script>
-    
-    <!--- Fontawesome Part-->
-    
-<link rel="stylesheet" href="/blog/fontawesome/fontawesome.min.css">
-
-    
-<link rel="stylesheet" href="/blog/fontawesome/brands.min.css">
-
-    
-<link rel="stylesheet" href="/blog/fontawesome/solid.min.css">
-
-    
-<link rel="stylesheet" href="/blog/fontawesome/regular.min.css">
-
-    
-    
-    
-    
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-
-<body>
-<div class="progress-bar-container">
-    
-        <span class="scroll-progress-bar"></span>
-    
-
-    
-        <span class="pjax-progress-bar"></span>
-        <span class="swup-progress-icon">
-            <i class="fa-solid fa-circle-notch fa-spin"></i>
-        </span>
-    
-</div>
-
-
-<main class="page-container" id="swup">
-
-    
-        
-    <style>
-        .home-banner-container {
-            background: transparent !important;
+<meta name="twitter:image" content="https://freely-git.github.io/blog/img/butterfly-icon.png"><link rel="shortcut icon" href="/blog/img/favicon.png"><link rel="canonical" href="https://freely-git.github.io/blog/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/blog/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
         }
+        return value
+      }
+    }
 
-        .home-article-item,
-        .sidebar-links,
-        .sidebar-content,
-        a.page-number,
-        a.extend,
-        .sidebar-links .links:hover,
-        .right-bottom-tools,
-        footer.footer {
-            background-color: var(--background-color-transparent-80) !important;
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
         }
-
-        .right-bottom-tools:hover,
-        a.page-number:hover,
-        a.extend:hover {
-            background-color: var(--primary-color) !important;
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
         }
-
-        .site-info,
-        .home-article-sticky-label {
-            background-color: var(--background-color-transparent-15) !important;
-        }
-
-        .home-article-sticky-label {
-            backdrop-filter: none !important;
-        }
-    </style>
-
-    <div class="home-banner-background transition-fade">
-    </div>
-
-
-<div class="home-banner-container flex justify-center items-center transition-fade">
-    <div class="content flex justify-center items-center">
-        <div class="description flex flex-col justify-center items-center"
-        
-        >
-            Freely-Blog
-            
-            
-                <p><i id="subtitle"></i></p>
-            
-        </div>
-        
-            <div class="social-contacts">
-                
-                    
-                        
-                            <span class="social-contact-item github">
-                                <a target="_blank" href="https://github.com/freely-git">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                            </span>
-                        
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                        
-                            <span class="social-contact-item email">
-                                <a href="mailto:freelyforget@gmail.com">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </a>
-                            </span>
-                        
-                    
-                
-                
-                    
-                        
-                    
-                
-            </div>
-        
-    </div>
-</div>
-
-
-
-    
-
-    <div class="main-content-container">
-
-
-        <div class="main-content-header">
-            <header class="navbar-container">
-    
-    <div class="navbar-content has-home-banner">
-        <div class="left">
-            
-            <a class="logo-title" href="https://freely-git.github.io/blog/">
-                <h1>
-                Freely-Blog
-                </h1>
-            </a>
-        </div>
-
-        <div class="right">
-            <!-- PC -->
-            <div class="desktop">
-                <ul class="navbar-list">
-                    
-                        
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class="active" 
-                                    href="/blog/"  >
-                                    
-                                        
-                                            <i class="fa-regular fa-house"></i>
-                                        
-                                        首页
-                                    
-                                </a>
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                        
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class="" 
-                                    href="/blog/archives"  >
-                                    
-                                        
-                                            <i class="fa-regular fa-archive"></i>
-                                        
-                                        归档
-                                    
-                                </a>
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                        
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class="" 
-                                    href="/blog/plugins"  >
-                                    
-                                        
-                                            <i class="fa-regular fa-rocket"></i>
-                                        
-                                        书签
-                                    
-                                </a>
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                    
-                        <li class="navbar-item search search-popup-trigger">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </li>
-                    
-                </ul>
-            </div>
-            <!-- Mobile -->
-            <div class="mobile">
-                
-                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i></div>
-                
-                <div class="icon-item navbar-bar">
-                    <div class="navbar-bar-middle"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Mobile drawer -->
-    <div class="navbar-drawer w-full absolute top-0 left-0 bg-background-color">
-        <ul class="drawer-navbar-list flex flex-col justify-start items-center">
-            
-                
-                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
-                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group active" 
-                        href="/blog/"  >
-                             
-                                
-                                    <i class="fa-regular fa-house"></i>
-                                
-                                首页
-                            
-                        </a>
-                    </li>
-                    <!-- Submenu -->
-                    
-            
-                
-                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
-                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
-                        href="/blog/archives"  >
-                             
-                                
-                                    <i class="fa-regular fa-archive"></i>
-                                
-                                归档
-                            
-                        </a>
-                    </li>
-                    <!-- Submenu -->
-                    
-            
-                
-                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
-                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
-                        href="/blog/plugins"  >
-                             
-                                
-                                    <i class="fa-regular fa-rocket"></i>
-                                
-                                书签
-                            
-                        </a>
-                    </li>
-                    <!-- Submenu -->
-                    
-            
-
-        </ul>
-    </div>
-
-    <div class="window-mask"></div>
-
-</header>
-
-
-        </div>
-
-        <div class="main-content-body">
-
-            
-                <div class="home-sidebar-container">
-    <div class="sticky-container">
-        
-            
-                <div class="sidebar-links">
-                    <div class="site-info">
-                        <div class="site-name">Freely-Blog</div>
-                        
-                            <div class="announcement">
-                                这是用来储存我的笔记和开发的小工具
-                            </div>
-                        
-                    </div>
-                    
-                        
-                            
-                                <a class="links" href="/blog/archives">
-                                    
-                                        <i class="fa-regular fa-archive icon-space"></i>
-                                    
-                                    <span class="link-name">Archives</span>
-                                </a>
-                            
-                        
-                            
-                                <a class="links" href="/blog/tags">
-                                    
-                                        <i class="fa-regular fa-tags icon-space"></i>
-                                    
-                                    <span class="link-name">Tags</span>
-                                </a>
-                            
-                        
-                    
-                </div>
-            
-            <div class="sidebar-content"  marginTop >
-                <div class="avatar">
-                    <img src="/blog/images/redefine-avatar.jpg">
-                </div>
-                <div class="author">
-                    <div class="name">freely</div>
-                    
-                        <div class="label">Lv2</div>
-                    
-                </div>
-                <div class="statistics">
-                    <a class="item" href="/blog/tags">
-                        <div class="number">6</div>
-                        <div class="label">标签</div>
-                    </a>
-                    <a class="item" href="/blog/categories">
-                        <div class="number">4</div>
-                        <div class="label">分类</div>
-                    </a>
-                    <a class="item" href="/blog/archives">
-                        <div class="number">12</div>
-                        <div class="label">文章</div>
-                    </a>
-                </div>
-            </div>
-        
-
-    </div>
-</div>
-
-            
-
-            <div class="main-content">
-
-                
-                    <div class="home-content-container">
-    <ul class="home-article-list">
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2024/11/06/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/">
-                        鼠标手势代码
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>鼠标手势代码</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Wed Nov 06 2024 22:33:47 GMT+0800">
-                
-                    2024-11-06
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/">鼠标手势代码</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E5%AE%9E%E7%94%A8/">实用</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2024/11/06/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/">阅读全文<span class="seo-reader-text">鼠标手势代码</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/">
-                        学习python
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>python学习笔记</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Oct 14 2024 09:26:39 GMT+0800">
-                
-                    2024-10-14
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/python/">python</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E5%AD%A6%E4%B9%A0/">学习</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/">阅读全文<span class="seo-reader-text">学习python</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2024/04/04/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0/">
-                        谷歌表格脚本学习
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>谷歌脚本学习笔记</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Thu Apr 04 2024 09:58:12 GMT+0800">
-                
-                    2024-04-04
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/%E8%B0%B7%E6%AD%8C%E7%9B%B8%E5%85%B3/">谷歌相关</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E5%AD%A6%E4%B9%A0/">学习</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2024/04/04/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0/">阅读全文<span class="seo-reader-text">谷歌表格脚本学习</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="relative h-[150px] overflow-hidden rounded-t-[10.8px] md:rounded-t-large -m-5 mb-3 sm:-m-6 sm:mb-4 md:-m-7 md:mb-5">
-                        <a href="/blog/2023/12/02/chatGPT-4%E6%8F%90%E9%97%AE%E5%B7%A5%E5%85%B7/">
-                            <img src="/blog/images/other/public.jpg" alt="chatGPT-4提问工具" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2023/12/02/chatGPT-4%E6%8F%90%E9%97%AE%E5%B7%A5%E5%85%B7/">
-                        chatGPT-4提问工具
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>该工具是其他人提供的chat-GPT4 接口而制作的简易网页</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Sat Dec 02 2023 10:19:16 GMT+0800">
-                
-                    2023-12-02
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E5%B7%A5%E5%85%B7/">工具</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2023/12/02/chatGPT-4%E6%8F%90%E9%97%AE%E5%B7%A5%E5%85%B7/">阅读全文<span class="seo-reader-text">chatGPT-4提问工具</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="relative h-[150px] overflow-hidden rounded-t-[10.8px] md:rounded-t-large -m-5 mb-3 sm:-m-6 sm:mb-4 md:-m-7 md:mb-5">
-                        <a href="/blog/2023/11/20/FB-%E6%94%B6%E9%9B%86%E8%B4%B4%E6%96%87%E6%8F%92%E4%BB%B6/">
-                            <img src="/blog/images/other/public.jpg" alt="FB-收集贴文插件" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2023/11/20/FB-%E6%94%B6%E9%9B%86%E8%B4%B4%E6%96%87%E6%8F%92%E4%BB%B6/">
-                        FB-收集贴文插件
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>该功能使用来在FaceBook界面直接把需要的贴文内容填写到表格中。</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Nov 20 2023 14:57:52 GMT+0800">
-                
-                    2023-11-20
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6/">谷歌插件</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2023/11/20/FB-%E6%94%B6%E9%9B%86%E8%B4%B4%E6%96%87%E6%8F%92%E4%BB%B6/">阅读全文<span class="seo-reader-text">FB-收集贴文插件</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="relative h-[150px] overflow-hidden rounded-t-[10.8px] md:rounded-t-large -m-5 mb-3 sm:-m-6 sm:mb-4 md:-m-7 md:mb-5">
-                        <a href="/blog/2023/11/02/TodoList%E5%B7%A5%E5%85%B7/">
-                            <img src="/blog/images/other/todolist.jpg" alt="TodoList工具" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2023/11/02/TodoList%E5%B7%A5%E5%85%B7/">
-                        TodoList工具
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>这是一个使用浏览器存储(localStorage)的todolist也就是待办事项列表工具</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Thu Nov 02 2023 16:37:36 GMT+0800">
-                
-                    2023-11-02
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E5%B7%A5%E5%85%B7/">工具</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2023/11/02/TodoList%E5%B7%A5%E5%85%B7/">阅读全文<span class="seo-reader-text">TodoList工具</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-                    
-                
-
-                
-                    <div id="home-article-thumbnail" class="relative h-[150px] overflow-hidden rounded-t-[10.8px] md:rounded-t-large -m-5 mb-3 sm:-m-6 sm:mb-4 md:-m-7 md:mb-5">
-                        <a href="/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E9%80%89%E6%8B%A9%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E6%97%B6%E9%97%B4%E6%AE%B5%EF%BC%8C%E7%94%9F%E6%88%90%E6%AF%8F%E4%B8%AA%E8%B4%A6%E5%8F%B7%E7%9A%84%E6%97%B6%E9%97%B4%E6%AE%B5/">
-                            <img src="/blog/images/other/setPeriod.jpg" alt="根据选择的账号和时间段，生成每个账号的时间段" class="w-full h-full object-cover dark:brightness-75 transition-all" />
-                        </a>
-                    </div>
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E9%80%89%E6%8B%A9%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E6%97%B6%E9%97%B4%E6%AE%B5%EF%BC%8C%E7%94%9F%E6%88%90%E6%AF%8F%E4%B8%AA%E8%B4%A6%E5%8F%B7%E7%9A%84%E6%97%B6%E9%97%B4%E6%AE%B5/">
-                        根据选择的账号和时间段，生成每个账号的时间段
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>这是一个根据选择的账号和时间段，生成每个账号的时间段工具</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Thu Nov 02 2023 10:02:26 GMT+0800">
-                
-                    2023-11-02
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E5%B7%A5%E5%85%B7/">工具</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E9%80%89%E6%8B%A9%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E6%97%B6%E9%97%B4%E6%AE%B5%EF%BC%8C%E7%94%9F%E6%88%90%E6%AF%8F%E4%B8%AA%E8%B4%A6%E5%8F%B7%E7%9A%84%E6%97%B6%E9%97%B4%E6%AE%B5/">阅读全文<span class="seo-reader-text">根据选择的账号和时间段，生成每个账号的时间段</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2023/10/23/%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/">
-                        谷歌插件开发
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>谷歌插件开发学习笔记</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Oct 23 2023 22:24:49 GMT+0800">
-                
-                    2023-10-23
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/%E8%B0%B7%E6%AD%8C%E7%9B%B8%E5%85%B3/">谷歌相关</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E5%AD%A6%E4%B9%A0/">学习</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2023/10/23/%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/">阅读全文<span class="seo-reader-text">谷歌插件开发</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2023/09/10/%E5%88%86%E4%BA%AB%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6/">
-                        分享一些好用的谷歌插件
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>谷歌函数学习笔记</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Sun Sep 10 2023 08:17:57 GMT+0800">
-                
-                    2023-09-10
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/%E8%B0%B7%E6%AD%8C%E7%9B%B8%E5%85%B3/">谷歌相关</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E5%88%86%E4%BA%AB/">分享</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2023/09/10/%E5%88%86%E4%BA%AB%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6/">阅读全文<span class="seo-reader-text">分享一些好用的谷歌插件</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-
-                <h3 class="home-article-title">
-                    <a href="/blog/2023/09/09/%E8%A7%A3%E5%86%B3%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E6%8A%A5%E9%94%99/">
-                        解决安装软件报错
-                    </a>
-                </h3>
-
-                <div class="home-article-content markdown-body">
-                    
-                        <p>安装软件出现报错，该如何解决。</p>
-
-                    
-                </div>
-
-                <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Sat Sep 09 2023 13:16:27 GMT+0800">
-                
-                    2023-09-09
-                
-            </span>
-        </span>
-        
-            <span class="home-article-category">
-                <i class="fa-solid fa-folders"></i>&nbsp;
-            <ul>
-                
-                
-                    
-                        
-                        <li>
-                            <a href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a>&nbsp;
-                        </li>
-                    
-                    
-                
-            </ul>
-        </span>
-        
-        
-            <span class="home-article-tag">
-                <i class="fa-solid fa-tags"></i>&nbsp;
-                <ul>
-                    
-                        <li>
-                            
-                            <a href="/blog/tags/%E8%BD%AF%E4%BB%B6/">软件</a>&nbsp;
-                        </li>
-                    
-                </ul>
-            </span>
-        
-    </div>
-
-    <a href="/blog/2023/09/09/%E8%A7%A3%E5%86%B3%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E6%8A%A5%E9%94%99/">阅读全文<span class="seo-reader-text">解决安装软件报错</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-            </li>
-        
-    </ul>
-
-    <div class="home-paginator">
-        <div class="paginator">
-    <span class="page-number current">1</span><a class="page-number" href="/blog/page/2/">2</a><a class="extend next" rel="next" href="/blog/page/2/"><i class="fa-regular fa-angle-right"></i></a>
-</div>
-
-    </div>
-</div>
-
-                    <div class="comment-container pjax"></div>
-                
-
-            </div>
-
-            
-
-        </div>
-
-        <div class="main-content-footer">
-            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
-    <div class="info-container py-3 text-center">
-        
-        <div class="text-center">
-            &copy;
-            
-              <span>2023</span>
-              -
-            
-            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">freely</a>
-        </div>
-        
-            <script data-swup-reload-script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
-                
-                    <span id="busuanzi_container_site_uv" class="lg:!block">
-                        <span class="text-sm">访问人数</span>
-                        <span id="busuanzi_value_site_uv"></span>
-                    </span>
-                
-                
-                    <span id="busuanzi_container_site_pv" class="lg:!block">
-                        <span class="text-sm">总访问量</span>
-                        <span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
-            </div>
-        
-        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
-            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
-            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.4.4</a></span>
-        </div>
-        
-        
-            <div>
-                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
-            </div>
-        
-        
-            <script data-swup-reload-script>
-                try {
-                    function odometer_init() {
-                    const elements = document.querySelectorAll('.odometer');
-                    elements.forEach(el => {
-                        new Odometer({
-                            el,
-                            format: '( ddd).dd',
-                            duration: 200
-                        });
-                    });
-                    }
-                    odometer_init();
-                } catch (error) {}
-            </script>
-        
-        
-            
-                
-        
-                
-        
-        
-    </div>  
-</footer>
-        </div>
-    </div>
-
-    
-
-    <div class="right-side-tools-container">
-        <div class="side-tools-container">
-    <ul class="hidden-tools-list">
-        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
-            <i class="fa-regular fa-magnifying-glass-plus"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
-            <i class="fa-regular fa-magnifying-glass-minus"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-expand-width flex justify-center items-center">
-            <i class="fa-regular fa-expand"></i>
-        </li>
-
-        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
-            <i class="fa-regular fa-moon"></i>
-        </li>
-
-        <!-- rss -->
-        
-
-        
-
-        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
-            <i class="fa-regular fa-arrow-down"></i>
-        </li>
-    </ul>
-
-    <ul class="visible-tools-list">
-        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
-            <i class="fa-regular fa-cog fa-spin"></i>
-        </li>
-        
-            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
-                <i class="arrow-up fas fa-arrow-up"></i>
-                <span class="percent"></span>
-            </li>
-        
-        
-    </ul>
-</div>
-
-    </div>
-
-    <div class="image-viewer-container">
-    <img src="">
-</div>
-
-
-    
-        <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-          <span class="search-input-field-pre">
-            <i class="fa-solid fa-keyboard"></i>
-          </span>
-            <div class="search-input-container">
-                <input autocomplete="off"
-                       autocorrect="off"
-                       autocapitalize="off"
-                       placeholder="搜索..."
-                       spellcheck="false"
-                       type="search"
-                       class="search-input"
-                >
-            </div>
-            <span class="popup-btn-close">
-                <i class="fa-solid fa-times"></i>
-            </span>
-        </div>
-        <div id="search-result">
-            <div id="no-result">
-                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
-            </div>
-        </div>
-    </div>
-</div>
-
-    
-
-</main>
-
-
-    
-<script src="/blog/js/libs/Swup.min.js"></script>
-
-<script src="/blog/js/libs/SwupSlideTheme.min.js"></script>
-
-<script src="/blog/js/libs/SwupScriptsPlugin.min.js"></script>
-
-<script src="/blog/js/libs/SwupProgressPlugin.min.js"></script>
-
-<script src="/blog/js/libs/SwupScrollPlugin.min.js"></script>
-
-<script>
-    const swup = new Swup({
-        plugins: [
-            new SwupScriptsPlugin({
-                optin: true,
-            }),
-            new SwupProgressPlugin(),
-            new SwupScrollPlugin({
-                offset: 80,
-            }),
-            new SwupSlideTheme({
-                mainElement: ".main-content-body",
-            }),
-        ],
-        containers: ["#swup"],
-    });
-
-    swup.hooks.on("page:view", () => {
-        Global.refresh();
-    });
-
-    // if (document.readyState === "complete") {
-    //
-    // } else {
-    //     document.addEventListener("DOMContentLoaded", () => init());
-    // }
-</script>
-
-
-
-
-
-
-
-<script src="/blog/js/utils.js" type="module"></script>
-
-<script src="/blog/js/main.js" type="module"></script>
-
-<script src="/blog/js/layouts/navbarShrink.js" type="module"></script>
-
-<script src="/blog/js/tools/scrollTopBottom.js" type="module"></script>
-
-<script src="/blog/js/tools/lightDarkSwitch.js" type="module"></script>
-
-<script src="/blog/js/layouts/categoryList.js" type="module"></script>
-
-
-
-    
-<script src="/blog/js/tools/localSearch.js"></script>
-
-
-
-
-    
-<script src="/blog/js/tools/codeBlock.js"></script>
-
-
-
-
-    
-<script src="/blog/js/layouts/lazyload.js"></script>
-
-
-
-
-    
-<script src="/blog/js/tools/runtime.js"></script>
-
-    
-<script src="/blog/js/libs/odometer.min.js"></script>
-
-    
-<link rel="stylesheet" href="/blog/assets/odometer-theme-minimal.css">
-
-
-
-
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
   
-<script src="/blog/js/libs/Typed.min.js"></script>
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
 
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
   
-<script src="/blog/js/plugins/typed.js"></script>
-
-
-
-
-
-
-
-<div class="post-scripts" data-swup-reload-script>
-    
-        
-<script src="/blog/js/libs/anime.min.js"></script>
-
-        
-<script src="/blog/js/tools/tocToggle.js" type="module"></script>
-
-<script src="/blog/js/layouts/toc.js" type="module"></script>
-
-<script src="/blog/js/plugins/tabs.js" type="module"></script>
-
-    
-</div>
-
-
-</body>
-</html>
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/blog/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Freely',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/blog/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(/blog/img/butterfly.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/blog/"><span class="site-name">Freely</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">Freely</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2024/11/06/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/" title="鼠标手势代码">鼠标手势代码</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-11-06T14:33:47.000Z" title="发表于 2024-11-06 22:33:47">2024-11-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/">鼠标手势代码</a></span></div><div class="content">一键发快拍（单个浏览器版本）12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182var wnds = sp.WindowsFromTitlePartial(&#x27;Facebook&#x27;);var path = &quot;D:\\FB\\kuaipai\\story&quot;; //快拍图片文件夹路径//var url = &quot;https://www.facebook.com/&quot;;for (var n = 0, len = wnds.Length; n &lt; len; n++) &#123;    wnds[len-n-1].Activate();    sp.Sleep(1000);    sp.ForegroundWindow().Maximize();   ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/" title="学习python">学习python</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-14T01:26:39.000Z" title="发表于 2024-10-14 09:26:39">2024-10-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/python/">python</a></span></div><div class="content">python 输出和输入1234# 接收输入的内容content = input();# 输出内容print(&quot;这是你输入的内容&quot;, content);</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2024/04/04/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0/" title="谷歌表格脚本学习">谷歌表格脚本学习</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-04T01:58:12.000Z" title="发表于 2024-04-04 09:58:12">2024-04-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/%E8%B0%B7%E6%AD%8C%E7%9B%B8%E5%85%B3/">谷歌相关</a></span></div><div class="content">Google APP Script (GAS) 简介GAS 是什么？Google 脚本是一种基于 Javascript 的脚本语言，全称 Google Apps Script，简称为 GAS。 GAS 能用来干什么？Google 应用最常用的是自动化处理表格数据，比如批量修改某个数据，如果是手动，那就需要一个一个修改，使用脚本能提升完成任务的效率、速度，还有脚本只要逻辑没有问题，修改的结果是不会出错的，而手动并不能保证修改的准确率，简单来说，脚本是用来提高我们配合任务的效率。当然谷歌脚本还能调用谷歌其他应用，Gmail、Calendar、Drive、Docs、Sheets、Forms等。 网络应用Google 脚本可以发布为 Web 网络应用，并且通过浏览器来访问，就像用户访问网页一样，并且可以操作 Google 应用，例如修改文档、表格等等。绑定 Google 应用的脚本可以转换为网络应用。网络应用必须包含 doGet() 或者 doPost()，相当于 HTTP GET 和 HTTP POST。 输出函数logger logger...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2023/12/02/chatGPT-4%E6%8F%90%E9%97%AE%E5%B7%A5%E5%85%B7/" title="chatGPT-4提问工具">chatGPT-4提问工具</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-12-02T02:19:16.000Z" title="发表于 2023-12-02 10:19:16">2023-12-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a></span></div><div class="content">制作好的谷歌表格:部署教程：  该项目可以复制到自己的谷歌网盘，然后进行部署 web 应用，打开 web 链接即可使用，使用的接口来自于 Raz1ner 该项目网址：，因为谷歌链接请求的次数限定，所以项目使用的链接不在公开，如果需要按照上述的方法操作，建立自己的一个 GPT4 来进行操作。  </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2023/11/20/FB-%E6%94%B6%E9%9B%86%E8%B4%B4%E6%96%87%E6%8F%92%E4%BB%B6/" title="FB-收集贴文插件">FB-收集贴文插件</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-11-20T06:57:52.000Z" title="发表于 2023-11-20 14:57:52">2023-11-20</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a></span></div><div class="content"> 该功能主要用于facebook收集贴文，这个插件会在facebook页面生成一个按钮，点击按钮是一个表单，里面填写信息，点提交就会上传到谷歌表格，使用这个插件，就不用再表格和facebook之间互相切换。  1.0 版本插件插件下载地址：   使用的文档： 1.1 版本插件插件下载地址：   使用的文档： </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2023/11/02/TodoList%E5%B7%A5%E5%85%B7/" title="TodoList工具">TodoList工具</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-11-02T08:37:36.000Z" title="发表于 2023-11-02 16:37:36">2023-11-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a></span></div><div class="content"> 该工具源代码是由vue3+typescript+vite+pinia编写的，目前仅支持LocalStorage存储数据，API接口未开发，之后会进行完善。  项目使用地址： 项目源代码地址： </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2023/11/02/%E6%A0%B9%E6%8D%AE%E9%80%89%E6%8B%A9%E7%9A%84%E8%B4%A6%E5%8F%B7%E5%92%8C%E6%97%B6%E9%97%B4%E6%AE%B5%EF%BC%8C%E7%94%9F%E6%88%90%E6%AF%8F%E4%B8%AA%E8%B4%A6%E5%8F%B7%E7%9A%84%E6%97%B6%E9%97%B4%E6%AE%B5/" title="根据选择的账号和时间段，生成每个账号的时间段">根据选择的账号和时间段，生成每个账号的时间段</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-11-02T02:02:26.000Z" title="发表于 2023-11-02 10:02:26">2023-11-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a></span></div><div class="content"> 该工具用于某些软件的设置中，在工具里面可以选择账号数量，还有时间段间隔，点击按钮获取，可以生成时间段，点击复制按钮可以把信息复制到谷歌表格中。  网址：使用教程： </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2023/10/23/%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/" title="谷歌插件开发">谷歌插件开发</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-10-23T14:24:49.000Z" title="发表于 2023-10-23 22:24:49">2023-10-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/%E8%B0%B7%E6%AD%8C%E7%9B%B8%E5%85%B3/">谷歌相关</a></span></div><div class="content">谷歌插件基本的文件 谷歌插件最基本的文件是 mainifest.json 文件   1234567891011121314151617181920&#123;    // 插件名称    &quot;name&quot;: &quot;&quot;,    // 插件版本    &quot;version&quot;: &quot;&quot;,    // 插件描述    &quot;description&quot;: &quot;&quot;,    // 配置插件程序的版本号，主流版本是2，最新是3    &quot;mainifest_version&quot;: 3,    // 注册后台脚本    &quot;background&quot;: &#123;        &quot;service_worker&quot;: &quot;&quot;    &#125;,    // 插件图标    &quot;icons&quot;: &#123;        &quot;16&quot;: ,        &quot;32&quot;: ,       ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2023/09/10/%E5%88%86%E4%BA%AB%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6/" title="分享一些好用的谷歌插件">分享一些好用的谷歌插件</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-09-10T00:17:57.000Z" title="发表于 2023-09-10 08:17:57">2023-09-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/%E8%B0%B7%E6%AD%8C%E7%9B%B8%E5%85%B3/">谷歌相关</a></span></div><div class="content">翻译软件推荐谷歌翻译:  ImTranslator:  截取网页的插件FireShot:  获取cookie和设置cookie的插件Share Your Cookies:  表情插件Emoji Keyboard by JoyPixels： </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/blog/2023/09/09/%E8%8E%B7%E5%8F%96meta%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E4%B8%AD%E7%9A%84id%E5%92%8Ctoken%E5%80%BC/" title="获取meta开发者账号中的id和token值">获取meta开发者账号中的id和token值</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-09-09T05:16:27.000Z" title="发表于 2023-09-09 13:16:27">2023-09-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/">个人自制</a></span></div><div class="content">&emsp; 该工具需要提供使用一个 长久令牌 替换好的网址，才能进行获取 复制，该版本暂时测试是由 v16 版本，其余版本暂无测试。    报错解决  &emsp;出现获取失败，开发者工具中报 "net::ERR_BLOCKED_BY_CLIENT" 这种错误，那说明你浏览器安装了*Privacy Badger* 类似这种插件，来阻止访问请求，只需要把插件关闭就可以正常使用hex  参考图如下:     </div></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/blog/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/blog/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/blog/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">freely-git</div><div class="author-info-description">FreeLy 个人博客</div><div class="site-data"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2024/11/06/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/" title="鼠标手势代码">鼠标手势代码</a><time datetime="2024-11-06T14:33:47.000Z" title="发表于 2024-11-06 22:33:47">2024-11-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2024/10/14/%E5%AD%A6%E4%B9%A0python/" title="学习python">学习python</a><time datetime="2024-10-14T01:26:39.000Z" title="发表于 2024-10-14 09:26:39">2024-10-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2024/04/04/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E8%84%9A%E6%9C%AC%E5%AD%A6%E4%B9%A0/" title="谷歌表格脚本学习">谷歌表格脚本学习</a><time datetime="2024-04-04T01:58:12.000Z" title="发表于 2024-04-04 09:58:12">2024-04-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2023/12/02/chatGPT-4%E6%8F%90%E9%97%AE%E5%B7%A5%E5%85%B7/" title="chatGPT-4提问工具">chatGPT-4提问工具</a><time datetime="2023-12-02T02:19:16.000Z" title="发表于 2023-12-02 10:19:16">2023-12-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/blog/2023/11/20/FB-%E6%94%B6%E9%9B%86%E8%B4%B4%E6%96%87%E6%8F%92%E4%BB%B6/" title="FB-收集贴文插件">FB-收集贴文插件</a><time datetime="2023-11-20T06:57:52.000Z" title="发表于 2023-11-20 14:57:52">2023-11-20</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/python/"><span class="card-category-list-name">python</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/%E4%B8%AA%E4%BA%BA%E8%87%AA%E5%88%B6/"><span class="card-category-list-name">个人自制</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/%E8%B0%B7%E6%AD%8C%E7%9B%B8%E5%85%B3/"><span class="card-category-list-name">谷歌相关</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/blog/categories/%E9%BC%A0%E6%A0%87%E6%89%8B%E5%8A%BF%E4%BB%A3%E7%A0%81/"><span class="card-category-list-name">鼠标手势代码</span><span class="card-category-list-count">1</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/blog/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 1.5em; color: #99a9bf">工具</a> <a href="/blog/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 1.1em; color: #999">软件</a> <a href="/blog/tags/%E5%88%86%E4%BA%AB/" style="font-size: 1.1em; color: #999">分享</a> <a href="/blog/tags/%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6/" style="font-size: 1.1em; color: #999">谷歌插件</a> <a href="/blog/tags/%E5%AE%9E%E7%94%A8/" style="font-size: 1.1em; color: #999">实用</a> <a href="/blog/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 1.5em; color: #99a9bf">学习</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/blog/archives/2024/11/">
+            <span class="card-archive-list-date">
+              十一月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/blog/archives/2024/10/">
+            <span class="card-archive-list-date">
+              十月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/blog/archives/2024/04/">
+            <span class="card-archive-list-date">
+              四月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/blog/archives/2023/12/">
+            <span class="card-archive-list-date">
+              十二月 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/blog/archives/2023/11/">
+            <span class="card-archive-list-date">
+              十一月 2023
+            </span>
+            <span class="card-archive-list-count">3</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/blog/archives/2023/10/">
+            <span class="card-archive-list-date">
+              十月 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/blog/archives/2023/09/">
+            <span class="card-archive-list-date">
+              九月 2023
+            </span>
+            <span class="card-archive-list-count">3</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/blog/archives/2023/08/">
+            <span class="card-archive-list-date">
+              八月 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">12</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-05-18T11:10:05.942Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By freely-git</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 6.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/blog/js/utils.js"></script><script src="/blog/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
