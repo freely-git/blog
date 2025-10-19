@@ -6,14 +6,14 @@
     <content><![CDATA[<blockquote>
 <p>该功能主要用于facebook收集贴文，这个插件会在facebook页面生成一个按钮，点击按钮是一个表单，里面填写信息，点提交就会上传到谷歌表格，使用这个插件，就不用再表格和facebook之间互相切换。</p>
 </blockquote>
-<h1 id="1-0-版本插件"><a href="#1-0-版本插件" class="headerlink" title="1.0 版本插件"></a>1.0 版本插件</h1><p>插件下载地址：<a class="btn-beautify " href="regular::插件下载地址::https://github.com/freely-git/FB-PostInputSheet/tree/v1.0::fa-solid fa-link" title=""></a></p>
+<h1 id="1-0-版本插件"><a href="#1-0-版本插件" class="headerlink" title="1.0 版本插件"></a>1.0 版本插件</h1><p>插件下载地址:<a href="https://github.com/freely-git/FB-PostInputSheet/tree/v1.0">https://github.com/freely-git/FB-PostInputSheet/tree/v1.0</a></p>
 <!-- 使用教程：<a class="btn-beautify " href="regular::教程::https://www.youtube.com/watch?v=Cw1HvJ8_YsI::fa-brands fa-youtube" title=""></a> -->
 
-<p>使用的文档：<a class="btn-beautify " href="regular::文档链接::https://docs.google.com/spreadsheets/d/1ckqFuM2YDXKJGQkASB2iVN6Q5u-IVOyA9qUM-wOk2N8/edit#gid=0::fa-solid fa-link" title=""></a></p>
-<h1 id="1-1-版本插件"><a href="#1-1-版本插件" class="headerlink" title="1.1 版本插件"></a>1.1 版本插件</h1><p>插件下载地址：<a class="btn-beautify " href="regular::插件下载地址::https://github.com/freely-git/FB-PostInputSheet::fa-solid fa-link" title=""></a></p>
+<p>使用的文档：<a href="https://docs.google.com/spreadsheets/d/1ckqFuM2YDXKJGQkASB2iVN6Q5u-IVOyA9qUM-wOk2N8/edit#gid=0">https://docs.google.com/spreadsheets/d/1ckqFuM2YDXKJGQkASB2iVN6Q5u-IVOyA9qUM-wOk2N8/edit#gid=0</a></p>
+<h1 id="1-1-版本插件"><a href="#1-1-版本插件" class="headerlink" title="1.1 版本插件"></a>1.1 版本插件</h1><p>插件下载地址：<a href="https://github.com/freely-git/FB-PostInputSheet">https://github.com/freely-git/FB-PostInputSheet</a></p>
 <!-- 使用教程：<a class="btn-beautify " href="regular::教程::https://www.youtube.com/watch?v=mx7QKunBNbA::fa-brands fa-youtube" title=""></a> -->
 
-<p>使用的文档：<a class="btn-beautify " href="regular::文档链接::https://docs.google.com/spreadsheets/d/1g8KaQJoDS4hxi-NDuta27U45qBTdW7WxnHg1j5bG42E/edit#gid=0::fa-solid fa-link" title=""></a></p>
+<p>使用的文档：:<a href="https://docs.google.com/spreadsheets/d/1g8KaQJoDS4hxi-NDuta27U45qBTdW7WxnHg1j5bG42E/edit#gid=0">https://docs.google.com/spreadsheets/d/1g8KaQJoDS4hxi-NDuta27U45qBTdW7WxnHg1j5bG42E/edit#gid=0</a></p>
 ]]></content>
       <categories>
         <category>个人自制</category>
@@ -28,8 +28,8 @@
     <content><![CDATA[<blockquote>
 <p>该工具源代码是由vue3+typescript+vite+pinia编写的，目前仅支持LocalStorage存储数据，API接口未开发，之后会进行完善。</p>
 </blockquote>
-<p>项目使用地址：<a class="btn-beautify " href="regular::跳转链接::https://freely-git.github.io/todolist/::fa-solid fa-link" title=""></a></p>
-<p>项目源代码地址：<a class="btn-beautify " href="regular::跳转链接::https://github.com/freely-git/vue3-todoList::fa-solid fa-link" title=""></a></p>
+<p>项目使用地址：<a href="https://freely-git.github.io/todolist/">https://freely-git.github.io/todolist/</a></p>
+<p>项目源代码地址：<a href="https://github.com/freely-git/vue3-todoList">https://github.com/freely-git/vue3-todoList</a></p>
 ]]></content>
       <categories>
         <category>个人自制</category>
@@ -41,7 +41,7 @@
   <entry>
     <title>chatGPT-4提问工具</title>
     <url>/blog/2023/12/02/chatGPT-4%E6%8F%90%E9%97%AE%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<p>制作好的谷歌表格:<a class="btn-beautify " href="regular::外部链接::https://docs.google.com/spreadsheets/d/1OQULLyfQPRV9-WGmq1IHwBmTqxyIsICoUcAziDRNBB0/edit#gid=0::fa-solid fa-link" title=""></a><br>部署教程：<a class="btn-beautify " href="regular::教程链接::https://www.youtube.com/watch?v=KOVeE0S0GdU::fa-brands fa-youtube" title=""></a></p>
+    <content><![CDATA[<p>制作好的谷歌表格:<a href="https://docs.google.com/spreadsheets/d/1OQULLyfQPRV9-WGmq1IHwBmTqxyIsICoUcAziDRNBB0/edit#gid=0">https://docs.google.com/spreadsheets/d/1OQULLyfQPRV9-WGmq1IHwBmTqxyIsICoUcAziDRNBB0/edit#gid=0</a><br>部署教程：<a href="https://www.youtube.com/watch?v=KOVeE0S0GdU">https://www.youtube.com/watch?v=KOVeE0S0GdU</a></p>
 <blockquote>
 <p>该项目可以复制到自己的谷歌网盘，然后进行部署 web 应用，打开 web 链接即可使用，使用的接口来自于 Raz1ner 该项目网址：<a class="btn-beautify " href="regular::外部链接::https://dev-coco.github.io/post/freeGPT-4/::fa-solid fa-link" title=""></a>，因为谷歌链接请求的次数限定，所以项目使用的链接不在公开，如果需要按照上述的方法操作，建立自己的一个 GPT4 来进行操作。</p>
 </blockquote>
@@ -70,7 +70,7 @@
     <content><![CDATA[<blockquote>
 <p>该工具用于某些软件的设置中，在工具里面可以选择账号数量，还有时间段间隔，点击按钮获取，可以生成时间段，点击复制按钮可以把信息复制到谷歌表格中。</p>
 </blockquote>
-<p>网址：<a class="btn-beautify " href="regular::工具跳转链接::https://freely-git.github.io/setPeriod/::fa-solid fa-link" title=""></a><br>使用教程：<a class="btn-beautify " href="regular::教程链接::https://www.youtube.com/watch?v=3S-LkZvC3dI::fa-brands fa-youtube" title=""></a></p>
+<p>网址：<a href="https://freely-git.github.io/setPeriod/">https://freely-git.github.io/setPeriod/</a><br>使用教程：<a href="https://www.youtube.com/watch?v=3S-LkZvC3dI">https://www.youtube.com/watch?v=3S-LkZvC3dI</a></p>
 ]]></content>
       <categories>
         <category>个人自制</category>
@@ -84,9 +84,7 @@
     <url>/blog/2023/09/09/%E8%8E%B7%E5%8F%96meta%E5%BC%80%E5%8F%91%E8%80%85%E8%B4%A6%E5%8F%B7%E4%B8%AD%E7%9A%84id%E5%92%8Ctoken%E5%80%BC/</url>
     <content><![CDATA[<p>&emsp; 该工具需要提供使用一个 <strong>长久令牌</strong> 替换好的网址，才能进行获取 复制，该版本暂时测试是由 v16 版本，其余版本暂无测试。</p>
 
-<a class="btn-beautify " href="regular::工具跳转链接::https://freely-git.github.io/get_token_id/::fa-solid fa-link" title=""></a>
-
-<p><strong>报错解决</strong></p>
+<p>工具跳转链接:<a href="https://freely-git.github.io/get_token_id/">https://freely-git.github.io/get_token_id/</a><br><strong>报错解决</strong></p>
 <blockquote>
 <p>&emsp;出现获取失败，开发者工具中报 "net::ERR_BLOCKED_BY_CLIENT" 这种错误，那说明你浏览器安装了*Privacy Badger* 类似这种插件，来阻止访问请求，只需要把插件关闭就可以正常使用</p>hex
 </blockquote>
@@ -109,8 +107,7 @@
     <content><![CDATA[<p><img src="/blog/img/other/software_error.png" width="80%"></img></p>
 <p>&emsp;安装软件时出现这种报错，说明我们的电脑C盘的C:\Windows\Temp文件夹没有权限，导致安装软件存储文件无法存入临时文件夹中，所以我们需要开启temp文件夹的权限，可以直接运行下面的批处理，直接允许超级管理员能有temp文件夹的增、删、改权限</p>
 
-<a class="btn-beautify " href="regular::下载批处理::https://drive.google.com/file/d/1vi9giO21-wG62-dexz0CqzQx_IbiNpuw/view?usp=sharing::fa-solid fa-download" title=""></a>
-
+<p>下载批处理:<a href="https://drive.google.com/file/d/1vi9giO21-wG62-dexz0CqzQx_IbiNpuw/view?usp=sharing">https://drive.google.com/file/d/1vi9giO21-wG62-dexz0CqzQx_IbiNpuw/view?usp=sharing</a></p>
 ]]></content>
       <categories>
         <category>个人自制</category>
@@ -122,11 +119,11 @@
   <entry>
     <title>分享一些好用的谷歌插件</title>
     <url>/blog/2023/09/10/%E5%88%86%E4%BA%AB%E4%B8%80%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E8%B0%B7%E6%AD%8C%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<h2 id="翻译软件推荐"><a href="#翻译软件推荐" class="headerlink" title="翻译软件推荐"></a>翻译软件推荐</h2><p>谷歌翻译: <a class="btn-beautify " href="regular::插件网址::https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb::fa-solid fa-link" title=""></a></p>
-<p>ImTranslator: <a class="btn-beautify " href="regular::插件网址::https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh::fa-solid fa-link" title=""></a></p>
-<h2 id="截取网页的插件"><a href="#截取网页的插件" class="headerlink" title="截取网页的插件"></a>截取网页的插件</h2><p>FireShot: <a class="btn-beautify " href="regular::插件网址::https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg::fa-solid fa-link" title=""></a></p>
-<h2 id="获取cookie和设置cookie的插件"><a href="#获取cookie和设置cookie的插件" class="headerlink" title="获取cookie和设置cookie的插件"></a>获取cookie和设置cookie的插件</h2><p>Share Your Cookies: <a class="btn-beautify " href="regular::插件网址::https://chrome.google.com/webstore/detail/share-your-cookies/poijkganimmndbhghgkmnfgpiejmlpke::fa-solid fa-link" title=""></a></p>
-<h2 id="表情插件"><a href="#表情插件" class="headerlink" title="表情插件"></a>表情插件</h2><p>Emoji Keyboard by JoyPixels：<a class="btn-beautify " href="regular::插件网址::https://chrome.google.com/webstore/detail/emoji-keyboard-by-joypixe/ipdjnhgkpapgippgcgkfcbpdpcgifncb::fa-solid fa-link" title=""></a></p>
+    <content><![CDATA[<h2 id="翻译软件推荐"><a href="#翻译软件推荐" class="headerlink" title="翻译软件推荐"></a>翻译软件推荐</h2><p>谷歌翻译: <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb">https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb</a></p>
+<p>ImTranslator:<a href="https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh">https://chrome.google.com/webstore/detail/imtranslator-translator-d/noaijdpnepcgjemiklgfkcfbkokogabh</a></p>
+<h2 id="截取网页的插件"><a href="#截取网页的插件" class="headerlink" title="截取网页的插件"></a>截取网页的插件</h2><p>FireShot: <a href="https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg">https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg</a></p>
+<h2 id="获取cookie和设置cookie的插件"><a href="#获取cookie和设置cookie的插件" class="headerlink" title="获取cookie和设置cookie的插件"></a>获取cookie和设置cookie的插件</h2><p>Share Your Cookies: <a href="https://chrome.google.com/webstore/detail/share-your-cookies/poijkganimmndbhghgkmnfgpiejmlpke">https://chrome.google.com/webstore/detail/share-your-cookies/poijkganimmndbhghgkmnfgpiejmlpke</a></p>
+<h2 id="表情插件"><a href="#表情插件" class="headerlink" title="表情插件"></a>表情插件</h2><p>Emoji Keyboard by JoyPixels：插件网址::<a href="https://chrome.google.com/webstore/detail/emoji-keyboard-by-joypixe/ipdjnhgkpapgippgcgkfcbpdpcgifncb">https://chrome.google.com/webstore/detail/emoji-keyboard-by-joypixe/ipdjnhgkpapgippgcgkfcbpdpcgifncb</a></p>
 ]]></content>
       <categories>
         <category>谷歌相关</category>
@@ -322,7 +319,7 @@
   <entry>
     <title>谷歌表格函数学习</title>
     <url>/blog/2023/08/19/%E8%B0%B7%E6%AD%8C%E8%A1%A8%E6%A0%BC%E5%87%BD%E6%95%B0%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<p>分享给大家 Raz1ner 作者制作的谷歌表格函数查找手册，<a class="btn-beautify " href="regular::函数手册::https://dev-coco.github.io/Excel/index.html::fa-solid fa-download" title=""></a></p>
+    <content><![CDATA[<p>分享给大家 Raz1ner 作者制作的谷歌表格函数查找手册，函数手册：<a href="https://dev-coco.github.io/Excel/index.html">https://dev-coco.github.io/Excel/index.html</a></p>
 <h2 id="关于阵列的函数使用"><a href="#关于阵列的函数使用" class="headerlink" title="关于阵列的函数使用"></a>关于阵列的函数使用</h2><p>ARRAYFORMULA()：可在多個資料列或資料欄中顯示陣列公式傳回的值<br>DETECTLANGUAGE()：用于检测字符串的语言  </p>
 ]]></content>
       <categories>
@@ -330,6 +327,19 @@
       </categories>
       <tags>
         <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>FB收集专业reels插件</title>
+    <url>/blog/2025/10/19/FB%E6%94%B6%E9%9B%86%E4%B8%93%E4%B8%9Areels%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<h1 id="1-0-版本插件"><a href="#1-0-版本插件" class="headerlink" title="1.0 版本插件"></a>1.0 版本插件</h1><p>插件下载地址:<a href="https://github.com/freely-git/FB-CollectReels-Links">https://github.com/freely-git/FB-CollectReels-Links</a></p>
+<p>使用教程:教程::<a href="https://youtu.be/RFCihcpXC3Y">https://youtu.be/RFCihcpXC3Y</a></p>
+]]></content>
+      <categories>
+        <category>个人自制</category>
+      </categories>
+      <tags>
+        <tag>谷歌插件</tag>
       </tags>
   </entry>
 </search>
